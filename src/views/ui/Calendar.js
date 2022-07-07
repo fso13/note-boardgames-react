@@ -17,6 +17,7 @@ const Calendar = () => {
                     allDayText='Весь вечер'
                     headerToolbar={{
                         left: 'prev,next',
+                        center: 'title',
                         right: "dayGridMonth,listYear"
                     }}
                     views={{
