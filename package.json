@@ -1,8 +1,10 @@
 {
   "name": "starter-bt5",
+  "homepage": "https://fso13.github.io/note-boardgames-react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "chart.js": "^2.6.0",
     "react-chartjs-2": "^2.6.4",
     "@fullcalendar/react": "^5.11.0",
@@ -85,6 +87,8 @@
     "workbox-webpack-plugin": "5.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node --openssl-legacy-provider scripts/start.js",
     "build": "node --openssl-legacy-provider scripts/build.js",
     "test": "node --openssl-legacy-provider scripts/test.js"
