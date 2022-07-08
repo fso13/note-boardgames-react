@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import NotesJson from "../../static/note.json";
 import * as CanvasJSReact from "canvasjs-react-charts";
-import {Card, CardBody, Col, Row} from "reactstrap";
 import "./Chart.scss";
 
 var CanvasJS = CanvasJSReact.CanvasJS;
@@ -29,18 +28,20 @@ export default class Button extends Component {
                 fontSize: 20,
                 text: "Количество сессий"
             },
-            axisY: {
+            axisY2: {
                 labelFontSize: 15,
                 interval: 1
             },
-            axisX: {
+            axisX2: {
                 labelFontSize: 0,
             },
             dataPointWidth: 13,
             data: [{
+                axisYType: "secondary",
+                axisXType: "secondary",
                 type: "bar",
 
-                dataPoints: Array.from(Array.from(result.entries()).map((item, index) => {
+                dataPoints: Array.from(Array.from(result.entries()).map((item) => {
                     return {y: item[1], indexLabel: item[0], indexLabelFontSize: 15}
                 }))
             }]
