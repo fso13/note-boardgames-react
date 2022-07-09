@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/views/ui/Chart.scss"],"names":[],"mappings":"AAAA,OACE,iBAAkB,CAClB,YAAa,CACb,YAAa,CACb,UAAW","file":"6.e8f8be90.chunk.css","sourcesContent":[".chart {\r\n  position: relative;\r\n  display: flex;\r\n  height: 100vh;\r\n  width: 100%;\r\n}\r\n\r\n"]}
