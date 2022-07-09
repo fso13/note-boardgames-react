@@ -7,7 +7,7 @@ import {
 } from "reactstrap";
 import React from "react";
 import GamesJson from "../../static/games.json";
-import {useParams} from "react-router";
+import {useLocation, useParams} from "react-router";
 import MetaTags from "react-meta-tags";
 
 
@@ -31,6 +31,7 @@ const Game = () => {
                     <meta id="og-image" property="og:image" content={gameJson.photoUrl}/>
                     <meta id="og-image-w" property="og:image:width" content="550"/>
                     <meta id="og-image-h" property="og:image:height" content="550"/>
+                    <meta content={useLocation()} property="og:url"/>
                 </MetaTags>
             </div>
             <Row className="mt-3">
