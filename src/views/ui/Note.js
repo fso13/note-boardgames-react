@@ -23,11 +23,14 @@ const Note = () => {
         <div>
             <div className="wrapper">
                 <MetaTags>
-                    <title>{noteJson.title}</title>
-                    <meta id="og-imag" name="og:image:alt" content={noteJson.content}/>
-                    <meta id="meta-description" name="description" content={noteJson.content}/>
-                    <meta id="og-title" property="og:title" content={noteJson.title}/>
+                    <title>{noteJson.tags.join(", ")}</title>
+                    <meta id="og-title" property="og:title" content={noteJson.tags.join(", ")}/>
+                    <meta id="og-type" property="og:type" content="article"/>
+                    <meta id="meta-description" name="og:description" content={noteJson.content}/>
+                    <meta id="og-image-alt" name="og:image:alt" content={noteJson.content}/>
                     <meta id="og-image" property="og:image" content={noteJson.files[0]}/>
+                    <meta id="og-image-w" property="og:image:width" content="550"/>
+                    <meta id="og-image-h" property="og:image:height" content="550"/>
                 </MetaTags>
             </div>
             <Row>

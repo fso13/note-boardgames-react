@@ -1,6 +1,6 @@
 import {
     Card,
-    CardBody, CardImg,
+    CardBody,
     CardSubtitle,
     CardText,
     CardTitle, Col, Row, UncontrolledCarousel,
@@ -24,10 +24,13 @@ const Game = () => {
             <div className="wrapper">
                 <MetaTags>
                     <title>{gameJson.title}</title>
-                    <meta id="og-imag" name="og:image:alt" content={gameJson.description}/>
-                    <meta id="meta-description" name="description" content={gameJson.description}/>
                     <meta id="og-title" property="og:title" content={gameJson.title}/>
+                    <meta id="og-type" property="og:type" content="article"/>
+                    <meta id="meta-description" name="og:description" content={gameJson.description}/>
+                    <meta id="og-image-alt" name="og:image:alt" content={gameJson.description}/>
                     <meta id="og-image" property="og:image" content={gameJson.photoUrl}/>
+                    <meta id="og-image-w" property="og:image:width" content="550"/>
+                    <meta id="og-image-h" property="og:image:height" content="550"/>
                 </MetaTags>
             </div>
             <Row className="mt-3">
