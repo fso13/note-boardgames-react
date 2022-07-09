@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "react-meta-tags": "1.0.1",
     "canvasjs-react-charts": "1.0.5",
     "@babel/core": "7.12.3",
     "@fullcalendar/daygrid": "^5.11.0",

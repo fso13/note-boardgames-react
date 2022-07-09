@@ -8,6 +8,7 @@ import {
 import React from "react";
 import GamesJson from "../../static/games.json";
 import {useParams} from "react-router";
+import MetaTags from "react-meta-tags";
 
 
 const Game = () => {
@@ -20,6 +21,15 @@ const Game = () => {
 
     return (
         <div>
+            <div className="wrapper">
+                <MetaTags>
+                    <title>{gameJson.title}</title>
+                    <meta id="og-imag" name="og:image:alt" content={gameJson.description}/>
+                    <meta id="meta-description" name="description" content={gameJson.description}/>
+                    <meta id="og-title" property="og:title" content={gameJson.title}/>
+                    <meta id="og-image" property="og:image" content={gameJson.photoUrl}/>
+                </MetaTags>
+            </div>
             <Row className="mt-3">
                 <Col xs="auto"
                      md={{

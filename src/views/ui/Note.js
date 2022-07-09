@@ -8,7 +8,7 @@ import {
 import React from "react";
 import NotesJson from "../../static/note.json";
 import {useParams} from "react-router";
-
+import MetaTags from 'react-meta-tags';
 
 const Note = () => {
 
@@ -19,7 +19,17 @@ const Note = () => {
     })[0];
 
     return (
+
         <div>
+            <div className="wrapper">
+                <MetaTags>
+                    <title>{noteJson.title}</title>
+                    <meta id="og-imag" name="og:image:alt" content={noteJson.content}/>
+                    <meta id="meta-description" name="description" content={noteJson.content}/>
+                    <meta id="og-title" property="og:title" content={noteJson.title}/>
+                    <meta id="og-image" property="og:image" content={noteJson.files[0]}/>
+                </MetaTags>
+            </div>
             <Row>
                 <Col xs="auto">
                     <div className="bg-light p-2 border">
