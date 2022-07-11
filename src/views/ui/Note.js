@@ -28,7 +28,9 @@ const Note = () => {
                     <meta id="og-type" property="og:type" content="article"/>
                     <meta id="meta-description" name="og:description" content={noteJson.content}/>
                     <meta id="og-image-alt" name="og:image:alt" content={noteJson.content}/>
-                    <meta id="og-image" property="og:image" content={noteJson.files[0]}/>
+                    {noteJson.files != null ?
+
+                        <meta id="og-image" property="og:image" content={noteJson.files[0]}/> : <div></div>}
                     <meta id="og-image-w" property="og:image:width" content="550"/>
                     <meta id="og-image-h" property="og:image:height" content="550"/>
                     <meta content={useLocation()} property="og:url"/>
@@ -57,15 +59,18 @@ const Note = () => {
                          size: 5,
                      }}>
                     <div className="bg-light p-2 border">
-                        <UncontrolledCarousel className="img-fluid"
-                                              items={noteJson.files.map((nt, index) => {
-                                                      return {
-                                                          key: index,
-                                                          src: nt
+                        {noteJson.files != null ?
+
+                            <UncontrolledCarousel className="img-fluid"
+                                                  items={noteJson.files.map((nt, index) => {
+                                                          return {
+                                                              key: index,
+                                                              src: nt
+                                                          }
                                                       }
-                                                  }
-                                              )}
-                        />
+                                                  )}
+                            /> : <div></div>
+                        }
                     </div>
                 </Col>
 

@@ -11,15 +11,17 @@ const Notes = () => {
                 {NotesJson.map((nt, index) => (
                     <Col sm="6" lg="6" xl="3" key={index}>
                         <Card>
-                            <UncontrolledCarousel className="img-fluid"
-                                                  items={nt.files.map((nt, index) => {
-                                                          return {
-                                                              key: index,
-                                                              src: nt
+                            {nt.files != null ?
+                                <UncontrolledCarousel className="img-fluid"
+                                                      items={nt.files.map((nt, index) => {
+                                                              return {
+                                                                  key: index,
+                                                                  src: nt
+                                                              }
                                                           }
-                                                      }
-                                                  )}
-                            />
+                                                      )}
+                                /> : <div></div>
+                            }
                             <CardBody className="p-4">
                                 <CardTitle tag="h5">{nt.title}</CardTitle>
                                 <CardSubtitle className="text-info">{nt.tags.join(", ")}</CardSubtitle>
