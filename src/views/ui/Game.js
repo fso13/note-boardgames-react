@@ -19,6 +19,7 @@ const Game = () => {
         return item.id == id;
     })[0];
 
+    let max = gameJson.playersMax == 0 ? "∞" : gameJson.playersMax;
     return (
         <div>
             <div className="wrapper">
@@ -58,7 +59,7 @@ const Game = () => {
                             <CardBody className="p-4">
                                 <CardTitle tag="h5">{gameJson.title}</CardTitle>
                                 <CardSubtitle
-                                    className="text-primary">от {gameJson.playersMin} до {gameJson.playersMax} игроков</CardSubtitle>
+                                    className="text-primary">от {gameJson.playersMin} до {max} игроков</CardSubtitle>
                                 <CardText className="mt-3">
                                     <div className="mt-3"
                                          dangerouslySetInnerHTML={{__html: gameJson.description}}/>

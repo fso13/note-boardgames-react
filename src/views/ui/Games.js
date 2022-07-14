@@ -20,13 +20,14 @@ const Games = () => {
             <Row>
                 {GamesJson.map((nt, index) => (
 
+
                     <Col sm="6" lg="6" xl="3" key={index}>
                         <Card>
                             <CardImg alt="Card image cap" src={nt.photoUrl}/>
                             <CardBody className="p-4">
                                 <CardTitle tag="h5">{nt.title}</CardTitle>
                                 <CardSubtitle
-                                    className="text-primary">от {nt.playersMin} до {nt.playersMax} игроков</CardSubtitle>
+                                    className="text-primary">от {nt.playersMin} до {nt.playersMax == 0 ? "∞" : nt.playersMax} игроков</CardSubtitle>
                                 <CardText className="mt-3 truncate-text">
                                     <div className="mt-3 truncate-text"
                                          dangerouslySetInnerHTML={{__html: nt.descriptionShort}}/>
