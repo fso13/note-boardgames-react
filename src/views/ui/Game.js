@@ -53,7 +53,11 @@ const Game = () => {
 
             </Row>
             <Row>
-                <Col xs="auto">
+                <Col xs="auto"
+                     md={{
+                         offset: 2,
+                         size: 7,
+                     }}>
                     <div className="bg-light p-2 border">
                         <Card>
                             <CardBody className="p-4">
