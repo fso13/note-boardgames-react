@@ -5,11 +5,18 @@ import {
 import GamesJson from "../../static/games.json";
 import React from "react";
 import {useNavigate} from "react-router";
+import MetaTags from "react-meta-tags";
 
 const Games = () => {
     let navigate = useNavigate();
     return (
         <div>
+            <div className="wrapper">
+                <MetaTags>
+                    <title>Коллекция игр</title>
+                    <meta id="og-title" property="og:title" content="Коллекция игр"/>
+                </MetaTags>
+            </div>
             <Row>
                 {GamesJson.map((nt, index) => (
 

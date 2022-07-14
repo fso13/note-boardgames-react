@@ -5,10 +5,17 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 import listYear from '@fullcalendar/list';
 import timeGridDay from '@fullcalendar/timegrid';
 import NotesJson from "../../static/note.json";
+import MetaTags from 'react-meta-tags';
 
 const Calendar = () => {
     return (
         <div>
+            <div className="wrapper">
+                <MetaTags>
+                    <title>Календарь</title>
+                    <meta id="og-title" property="og:title" content="Календарь"/>
+                </MetaTags>
+            </div>
             <Row>
                 <FullCalendar
                     timeZone='UTC'
