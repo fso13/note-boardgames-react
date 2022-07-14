@@ -7,8 +7,8 @@
     "main.css": "/note-boardgames-react/static/css/main.abe99508.chunk.css",
     "main.js": "/note-boardgames-react/static/js/main.9414f31a.chunk.js",
     "main.js.map": "/note-boardgames-react/static/js/main.9414f31a.chunk.js.map",
-    "runtime-main.js": "/note-boardgames-react/static/js/runtime-main.c351479c.js",
-    "runtime-main.js.map": "/note-boardgames-react/static/js/runtime-main.c351479c.js.map",
+    "runtime-main.js": "/note-boardgames-react/static/js/runtime-main.449f4e6e.js",
+    "runtime-main.js.map": "/note-boardgames-react/static/js/runtime-main.449f4e6e.js.map",
     "static/js/4.28b89813.chunk.js": "/note-boardgames-react/static/js/4.28b89813.chunk.js",
     "static/js/4.28b89813.chunk.js.map": "/note-boardgames-react/static/js/4.28b89813.chunk.js.map",
     "static/css/5.45629d53.chunk.css": "/note-boardgames-react/static/css/5.45629d53.chunk.css",
@@ -23,8 +23,8 @@
     "static/css/9.e8f8be90.chunk.css": "/note-boardgames-react/static/css/9.e8f8be90.chunk.css",
     "static/js/9.1ba4efb9.chunk.js": "/note-boardgames-react/static/js/9.1ba4efb9.chunk.js",
     "static/js/9.1ba4efb9.chunk.js.map": "/note-boardgames-react/static/js/9.1ba4efb9.chunk.js.map",
-    "static/js/10.661f52cc.chunk.js": "/note-boardgames-react/static/js/10.661f52cc.chunk.js",
-    "static/js/10.661f52cc.chunk.js.map": "/note-boardgames-react/static/js/10.661f52cc.chunk.js.map",
+    "static/js/10.0c02e7e0.chunk.js": "/note-boardgames-react/static/js/10.0c02e7e0.chunk.js",
+    "static/js/10.0c02e7e0.chunk.js.map": "/note-boardgames-react/static/js/10.0c02e7e0.chunk.js.map",
     "static/js/11.6bfa0566.chunk.js": "/note-boardgames-react/static/js/11.6bfa0566.chunk.js",
     "static/js/11.6bfa0566.chunk.js.map": "/note-boardgames-react/static/js/11.6bfa0566.chunk.js.map",
     "static/js/12.1b236804.chunk.js": "/note-boardgames-react/static/js/12.1b236804.chunk.js",
@@ -42,7 +42,7 @@
     "static/media/style.scss": "/note-boardgames-react/static/media/bootstrap-icons.7165e5d7.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.c351479c.js",
+    "static/js/runtime-main.449f4e6e.js",
     "static/js/4.28b89813.chunk.js",
     "static/css/main.abe99508.chunk.css",
     "static/js/main.9414f31a.chunk.js"
