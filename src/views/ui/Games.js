@@ -6,6 +6,7 @@ import GamesJson from "../../static/games.json";
 import React from "react";
 import {useNavigate} from "react-router";
 import MetaTags from "react-meta-tags";
+const imageStyles = {maxWidth: 300, maxHeight: 300, objectFit: "scale-down"};
 
 const Games = () => {
     let navigate = useNavigate();
@@ -24,7 +25,7 @@ const Games = () => {
                     return (
                         <Col sm="6" lg="6" xl="3" key={index}>
                             <Card>
-                                <CardImg alt={nt.title} src={src.default}/>
+                                <CardImg style={imageStyles} alt={nt.title} src={src.default}/>
                                 <CardBody className="p-4">
                                     <CardTitle tag="h5">{nt.title}</CardTitle>
                                     <CardSubtitle
