@@ -7,8 +7,8 @@
     "main.css": "/note-boardgames-react/static/css/main.abe99508.chunk.css",
     "main.js": "/note-boardgames-react/static/js/main.42746dbd.chunk.js",
     "main.js.map": "/note-boardgames-react/static/js/main.42746dbd.chunk.js.map",
-    "runtime-main.js": "/note-boardgames-react/static/js/runtime-main.2960cead.js",
-    "runtime-main.js.map": "/note-boardgames-react/static/js/runtime-main.2960cead.js.map",
+    "runtime-main.js": "/note-boardgames-react/static/js/runtime-main.b9d47e76.js",
+    "runtime-main.js.map": "/note-boardgames-react/static/js/runtime-main.b9d47e76.js.map",
     "static/js/4.27b566e9.chunk.js": "/note-boardgames-react/static/js/4.27b566e9.chunk.js",
     "static/js/4.27b566e9.chunk.js.map": "/note-boardgames-react/static/js/4.27b566e9.chunk.js.map",
     "static/js/5.6fa86620.chunk.js": "/note-boardgames-react/static/js/5.6fa86620.chunk.js",
@@ -31,8 +31,8 @@
     "static/js/12.9d2427a9.chunk.js.map": "/note-boardgames-react/static/js/12.9d2427a9.chunk.js.map",
     "static/js/13.2cb56ff3.chunk.js": "/note-boardgames-react/static/js/13.2cb56ff3.chunk.js",
     "static/js/13.2cb56ff3.chunk.js.map": "/note-boardgames-react/static/js/13.2cb56ff3.chunk.js.map",
-    "static/js/14.1e654d00.chunk.js": "/note-boardgames-react/static/js/14.1e654d00.chunk.js",
-    "static/js/14.1e654d00.chunk.js.map": "/note-boardgames-react/static/js/14.1e654d00.chunk.js.map",
+    "static/js/14.f60d158b.chunk.js": "/note-boardgames-react/static/js/14.f60d158b.chunk.js",
+    "static/js/14.f60d158b.chunk.js.map": "/note-boardgames-react/static/js/14.f60d158b.chunk.js.map",
     "static/js/15.7ef7ce93.chunk.js": "/note-boardgames-react/static/js/15.7ef7ce93.chunk.js",
     "static/js/15.7ef7ce93.chunk.js.map": "/note-boardgames-react/static/js/15.7ef7ce93.chunk.js.map",
     "index.html": "/note-boardgames-react/index.html",
@@ -113,7 +113,7 @@
     "static/media/style.scss": "/note-boardgames-react/static/media/bootstrap-icons.7165e5d7.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.2960cead.js",
+    "static/js/runtime-main.b9d47e76.js",
     "static/js/5.6fa86620.chunk.js",
     "static/css/main.abe99508.chunk.css",
     "static/js/main.42746dbd.chunk.js"
