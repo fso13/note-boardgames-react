@@ -29,11 +29,9 @@ const qs = require('query-string');
 
 const Games = () => {
     const query = qs.parse(window.location.search);
-    console.log(query)
+    console.log(window.location.search)
     let playersMax = query.playersMax
     let playersMin = query.playersMin
-    console.log(playersMax)
-
 
     let navigate = useNavigate();
     return (
@@ -151,7 +149,13 @@ const Games = () => {
                                             sm={{
                                                 size: 1
                                             }}>
-                                            <Button>
+                                            <Button onClick={() => {
+                                                const url = new URL(window.location);
+                                                url.searchParams.delete('playersMin');
+                                                url.searchParams.delete('playersMax');
+                                                window.history.replaceState(null, null, url)
+                                                navigate(`/games`)
+                                            }}>
                                                 Clear
                                             </Button>
                                         </Col>
