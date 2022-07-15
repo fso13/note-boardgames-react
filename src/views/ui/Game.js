@@ -9,7 +9,7 @@ import React from "react";
 import GamesJson from "../../static/games.json";
 import {useLocation, useParams} from "react-router";
 import MetaTags from "react-meta-tags";
-
+import {Media} from 'reactstrap';
 
 const Game = () => {
 
@@ -20,6 +20,7 @@ const Game = () => {
     })[0];
 
     let max = gameJson.playersMax == 0 ? "∞" : gameJson.playersMax;
+    let src = require(`../../assets/images/game/${gameJson.id}.jpg`);
     return (
         <div>
             <div className="wrapper">
@@ -45,34 +46,36 @@ const Game = () => {
                         <UncontrolledCarousel className="img-fluid"
                                               items={[{
                                                   key: 1,
-                                                  src: gameJson.photoUrl
+                                                  src: src.default
+
                                               }]}
                         />
                     </div>
                 </Col>
-
-            </Row>
-            <Row>
-                <Col xs="auto"
-                     md={{
-                         offset: 2,
-                         size: 7,
-                     }}>
-                    <div className="bg-light p-2 border">
-                        <Card>
-                            <CardBody className="p-4">
-                                <CardTitle tag="h5">{gameJson.title}</CardTitle>
-                                <CardSubtitle
-                                    className="text-primary">от {gameJson.playersMin} до {max} игроков</CardSubtitle>
-                                <CardText className="mt-3">
-                                    <div className="mt-3"
-                                         dangerouslySetInnerHTML={{__html: gameJson.description}}/>
-                                </CardText>
-                            </CardBody>
-                        </Card>
-                    </div>
+                <Col xs="auto">
+                    <Media>
+                        <Media body>
+                            <Media heading>
+                                {gameJson.title}
+                            </Media>
+                            <div className="bg-light p-2 border">
+                                <Card>
+                                    <CardBody className="p-4">
+                                        <CardTitle tag="h5">{gameJson.title}</CardTitle>
+                                        <CardSubtitle
+                                            className="text-primary">от {gameJson.playersMin} до {max} игроков</CardSubtitle>
+                                        <CardText className="mt-3">
+                                            <div className="mt-3"
+                                                 dangerouslySetInnerHTML={{__html: gameJson.description}}/>
+                                        </CardText>
+                                    </CardBody>
+                                </Card>
+                            </div>
+                        </Media>
+                    </Media>
                 </Col>
             </Row>
+
         </div>
     );
 };
