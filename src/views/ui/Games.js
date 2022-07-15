@@ -171,7 +171,7 @@ const Games = () => {
             <Row>
                 {GamesJson.map((nt, index) => {
                     const src = require(`../../assets/images/game/${nt.id}.jpg`);
-                    if ((playersMin === undefined || nt.playersMin >= playersMin) && (playersMax === undefined || nt.playersMax <= playersMax)) {
+                    if ((playersMin === undefined || nt.playersMax >= playersMin) && (playersMax === undefined || nt.playersMax <= playersMax)) {
                         return (
                             <Col sm="6" lg="6" xl="3" key={index}>
                                 <Card>
