@@ -1,15 +1,8 @@
-import {
-    Card,
-    CardBody,
-    CardSubtitle,
-    CardText,
-    CardTitle, Col, Row, UncontrolledCarousel,
-} from "reactstrap";
+import {Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Media, Row, UncontrolledCarousel,} from "reactstrap";
 import React from "react";
 import GamesJson from "../../static/games.json";
 import {useLocation, useParams} from "react-router";
 import MetaTags from "react-meta-tags";
-import {Media} from 'reactstrap';
 
 const Game = () => {
 

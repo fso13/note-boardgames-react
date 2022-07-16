@@ -30,8 +30,7 @@ const qs = require('query-string');
 const Games = () => {
     const query = qs.parse(window.location.search);
     console.log(window.location.search)
-    let playersMax = query.playersMax
-    let playersMin = query.playersMin
+    let players = query.players
 
     let navigate = useNavigate();
     return (
@@ -57,14 +56,17 @@ const Games = () => {
                                     <FormGroup row>
                                         <Label
                                             for="exampleSelect"
-                                            sm={2}>
-                                            Игроков от
+                                            sm={3}>
+                                            Для количество игроков
                                         </Label>
                                         <Col sm={2}>
                                             <Input
-                                                id="exampleSelect"
-                                                name="playersMin"
+                                                defaultValue={players === undefined ? 1 : players}
+                                                id="players"
+                                                name="players"
                                                 type="select">
+                                                <option>
+                                                </option>
                                                 <option>
                                                     1
                                                 </option>
@@ -95,68 +97,27 @@ const Games = () => {
                                             </Input>
                                         </Col>
                                         <Label
-                                            for="exampleSelect"
-                                            sm={2}>
-                                            до
+                                            for="exampleSelect">
                                         </Label>
-                                        <Col sm={2}>
-                                            <Input
-                                                id="exampleSelect"
-                                                name="playersMax"
-                                                type="select">
-                                                <option>
-                                                    1
-                                                </option>
-                                                <option>
-                                                    2
-                                                </option>
-                                                <option>
-                                                    3
-                                                </option>
-                                                <option>
-                                                    4
-                                                </option>
-                                                <option>
-                                                    5
-                                                </option>
-                                                <option>
-                                                    6
-                                                </option>
-                                                <option>
-                                                    7
-                                                </option>
-                                                <option>
-                                                    8
-                                                </option>
-                                                <option>
-                                                    9
-                                                </option>
-                                            </Input>
-                                        </Col>
                                         <Col
                                             sm={{
                                                 size: 1
                                             }}>
                                             <Button>
-                                                Submit
+                                                Поиск
                                             </Button>
                                         </Col>
                                         <Label
-                                            for="exampleSelect"
-                                            sm={1}>
+                                            for="exampleSelect">
                                         </Label>
-                                        <Col
-                                            sm={{
-                                                size: 1
-                                            }}>
+                                        <Col>
                                             <Button onClick={() => {
                                                 const url = new URL(window.location);
-                                                url.searchParams.delete('playersMin');
-                                                url.searchParams.delete('playersMax');
+                                                url.searchParams.delete('players');
                                                 window.history.replaceState(null, null, url)
                                                 navigate(`/games`)
                                             }}>
-                                                Clear
+                                                Очистить
                                             </Button>
                                         </Col>
                                     </FormGroup>
@@ -166,12 +127,12 @@ const Games = () => {
                         </AccordionItem>
                     </UncontrolledAccordion>
                 </div>
-
             </div>
+            <br/>
             <Row>
                 {GamesJson.map((nt, index) => {
                     const src = require(`../../assets/images/game/${nt.id}.jpg`);
-                    if ((playersMin === undefined || nt.playersMax >= playersMin) && (playersMax === undefined || nt.playersMax <= playersMax)) {
+                    if ((players === undefined || players === '' || nt.playersMin <= players) && (players === undefined || players === '' || nt.playersMax >= players)) {
                         return (
                             <Col sm="6" lg="6" xl="3" key={index}>
                                 <Card>
