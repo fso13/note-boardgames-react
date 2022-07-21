@@ -23,7 +23,11 @@ import {useNavigate} from "react-router";
 import MetaTags from "react-meta-tags";
 
 
-const imageStyles = {maxWidth: 300, maxHeight: 300, objectFit: "scale-down"};
+const imageStyles = {
+    width: "100%",
+    height: "15vw",
+    objectFit: "cover"
+};
 const qs = require('query-string');
 
 
