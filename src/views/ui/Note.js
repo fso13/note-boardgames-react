@@ -1,10 +1,4 @@
-import {
-    Card,
-    CardBody,
-    CardSubtitle,
-    CardText,
-    CardTitle, Col, Row, UncontrolledCarousel,
-} from "reactstrap";
+import {Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Row, UncontrolledCarousel,} from "reactstrap";
 import React from "react";
 import NotesJson from "../../static/note.json";
 import {useLocation, useParams} from "react-router";
@@ -30,7 +24,7 @@ const Note = () => {
                     <meta id="og-image-alt" name="og:image:alt" content={noteJson.content}/>
                     {noteJson.files != null ?
 
-                        <meta id="og-image" property="og:image" content={noteJson.files[0]}/> : <div></div>}
+                        <meta id="og-image" property="og:image" content={noteJson.files[0]}/> : <div/>}
                     <meta id="og-image-w" property="og:image:width" content="550"/>
                     <meta id="og-image-h" property="og:image:height" content="550"/>
                     <meta content={useLocation()} property="og:url"/>
@@ -59,13 +53,13 @@ const Note = () => {
             <Row className="mt-3">
                 <Col xs="auto"
                      md={{
-                         offset: 3,
-                         size: 5,
+                         offset: 2,
+                         size: 7,
                      }}>
                     <div className="bg-light p-2 border">
                         {noteJson.files != null ?
 
-                            <UncontrolledCarousel className="img-fluid"
+                            <UncontrolledCarousel className="img-fluid" interval={false}
                                                   items={noteJson.files.map((nt, index) => {
                                                           return {
                                                               key: index,
@@ -73,7 +67,7 @@ const Note = () => {
                                                           }
                                                       }
                                                   )}
-                            /> : <div></div>
+                            /> : <div/>
                         }
                     </div>
                 </Col>

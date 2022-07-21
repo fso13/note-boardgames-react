@@ -5,7 +5,6 @@ import {
     Button,
     Card,
     CardBody,
-    CardImg,
     CardSubtitle,
     CardText,
     CardTitle,
@@ -22,12 +21,6 @@ import React from "react";
 import {useNavigate} from "react-router";
 import MetaTags from "react-meta-tags";
 
-
-const imageStyles = {
-    width: "100%",
-    height: "15vw",
-    objectFit: "cover"
-};
 const qs = require('query-string');
 
 
@@ -140,7 +133,15 @@ const Games = () => {
                         return (
                             <Col sm="6" lg="6" xl="3" key={index}>
                                 <Card>
-                                    <CardImg style={imageStyles} alt={nt.title} src={src.default}/>
+                                    <div className="card-img" style={{
+                                        backgroundSize: "cover",
+                                        backgroundPosition: "center",
+                                        paddingBottom: "100%",
+                                        width: "100%",
+                                        backgroundImage: `url(${src.default})`
+                                    }}>
+                                        {/*<CardImg style={imageStyles} resizeMode="cover"  alt={nt.title} src={src.default}/>*/}
+                                    </div>
                                     <CardBody className="p-4">
                                         <CardTitle tag="h5">{nt.title}</CardTitle>
                                         <CardSubtitle
