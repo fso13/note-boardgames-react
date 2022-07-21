@@ -116,10 +116,10 @@ const Note = () => {
 
                         {noteJson.files != null ?
 
-                            <Carousel
-                                activeIndex={activeIndex}
-                                next={next}
-                                previous={previous}
+                            <Carousel interval={false}
+                                      activeIndex={activeIndex}
+                                      next={next}
+                                      previous={previous}
                             >
                                 <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex}/>
                                 {slides}
