@@ -79,7 +79,18 @@ const Game = () => {
                         </Col>
                     </Row>
                 </div>
-            ) : <div></div>}
+            ) : (<Row className="mt-3">
+                <Col xs="auto"
+                     md={{
+                         offset: 3,
+                         size: 5,
+                     }}>
+                    <div className="code"> 404</div>
+                    <div className="message">
+                        Not Found
+                    </div>
+                </Col>
+            </Row>)}
         </div>
 
     );
