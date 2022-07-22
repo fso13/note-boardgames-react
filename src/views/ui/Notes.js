@@ -37,7 +37,13 @@ const Notes = () => {
                             {/*}*/}
                             <CardBody className="p-4">
                                 <CardTitle tag="h5">{nt.title}</CardTitle>
-                                <CardSubtitle className="text-info">{nt.tags.join(", ")}</CardSubtitle>
+                                <CardSubtitle className="text-info">
+                                    {
+                                        nt.tags.map((tag) => {
+                                            return (<div><a href={tag}>{tag}</a></div>)
+                                        })
+                                    }
+                                </CardSubtitle>
                                 <CardText className="mt-3 truncate-text">
                                     <div className="mt-3 truncate-text" dangerouslySetInnerHTML={{__html: nt.content}}/>
                                 </CardText>
