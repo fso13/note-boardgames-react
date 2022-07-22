@@ -40,7 +40,11 @@ const Note = () => {
                         <Card>
                             <CardBody className="p-4">
                                 <CardTitle tag="h5">{noteJson.title}</CardTitle>
-                                <CardSubtitle className="text-primary">{noteJson.tags.join(", ")}</CardSubtitle>
+                                <CardSubtitle className="text-primary">{
+                                    noteJson.tags.map((tag) => {
+                                        return (<div><a href={`#/games/${tag}`}>{tag}</a></div>)
+                                    })
+                                }</CardSubtitle>
                                 <CardText className="mt-3">
                                     <div className="mt-3"
                                          dangerouslySetInnerHTML={{__html: noteJson.content}}/>

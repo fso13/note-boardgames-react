@@ -25,6 +25,7 @@ const ThemeRoutes = [
       {path: "/notes/:id", exact: true, element: <Note/>},
       {path: "/games", exact: true, element: <Games/>},
       {path: "/games/:id", exact: true, element: <Game/>},
+      {path: "/games/:title", exact: true, element: <Game/>},
       {path: "/calendar", exact: true, element: <Calendar/>},
       {path: "/chart", exact: true, element: <Chart/>},
     ],
