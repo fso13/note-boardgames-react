@@ -55,6 +55,19 @@ const Note = () => {
                 </Col>
             </Row>
             <Row className="mt-3">
+            <Col xs="auto"
+                     md={{
+                         offset: 2,
+                         size: 7,
+                     }}>
+                <div>
+                    {noteJson.videos!=null ? 
+                    <iframe width="100%" height="315" src={`${noteJson.videos}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    : <div></div>}
+                </div>
+                </Col>
+            </Row>
+            <Row className="mt-3">
                 <Col xs="auto"
                      md={{
                          offset: 2,
