@@ -67,6 +67,8 @@ const Game = () => {
                                                 <CardTitle tag="h5">{gameJson.title}</CardTitle>
                                                 <CardSubtitle
                                                     className="text-primary">от {gameJson.playersMin} до {max} игроков</CardSubtitle>
+                                                     <CardSubtitle
+                                                        className="text-primary">{gameJson.time}</CardSubtitle>
                                                 <CardText className="mt-3">
                                                     <div className="mt-3"
                                                          dangerouslySetInnerHTML={{__html: gameJson.description}}/>

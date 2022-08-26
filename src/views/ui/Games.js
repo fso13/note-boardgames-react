@@ -146,6 +146,8 @@ const Games = () => {
                                         <CardTitle tag="h5">{nt.title}</CardTitle>
                                         <CardSubtitle
                                             className="text-primary">от {nt.playersMin} до {nt.playersMax} игроков</CardSubtitle>
+                                            <CardSubtitle
+                                            className="text-primary">{nt.time}</CardSubtitle>
                                         <CardText className="mt-3 truncate-text">
                                             <div className="mt-3 truncate-text"
                                                  dangerouslySetInnerHTML={{__html: nt.descriptionShort}}/>
