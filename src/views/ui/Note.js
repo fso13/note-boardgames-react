@@ -42,7 +42,7 @@ const Note = () => {
                                 <CardTitle tag="h5">{noteJson.title}</CardTitle>
                                 <CardSubtitle className="text-primary">{
                                     noteJson.tags.map((tag) => {
-                                        return (<div><a href={`#/games/${tag}`}>{tag}</a></div>)
+                                        return (<div><a href={`#/games/${tag.title}`}>{tag.title+'('+tag.count+')'}</a></div>)
                                     })
                                 }</CardSubtitle>
                                 <CardText className="mt-3">

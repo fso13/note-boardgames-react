@@ -37,7 +37,7 @@ const Calendar = () => {
                         {
                             return nt.tags.map((tag) => {
                                 return {
-                                    title: tag,
+                                    title: tag.title +'(' + tag.count + ')',
                                     date: nt.title.split('.').reverse().join('-')
                                 }
                             })
