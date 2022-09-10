@@ -19,7 +19,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 17.5.0
-          cache: 'npm'
 
       - name: Cache dependencies
         uses: actions/cache@v2
