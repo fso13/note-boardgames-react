@@ -17,8 +17,8 @@ const Note = () => {
         <div>
             <div className="wrapper">
                 <MetaTags>
-                    <title>{noteJson.tags.join(", ")}</title>
-                    <meta id="og-title" property="og:title" content={noteJson.tags.join(", ")}/>
+                    <title>{noteJson.tags.map((tag)=> tag.title).join(", ")}</title>
+                    <meta id="og-title" property="og:title" content={noteJson.tags.map((tag)=> tag.title).join(", ")}/>
                     <meta id="og-type" property="og:type" content="article"/>
                     <meta id="meta-description" name="og:description" content={noteJson.content}/>
                     <meta id="og-image-alt" name="og:image:alt" content={noteJson.content}/>
