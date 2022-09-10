@@ -95,7 +95,7 @@
     "deploy": "gh-pages -d build --force --legacy-peer-deps",
     "start": "node --openssl-legacy-provider scripts/start.js",
     "build": "node --openssl-legacy-provider --legacy-peer-deps scripts/build.js",
-    "test": "node --openssl-legacy-provider --legacy-peer-deps scripts/test.js"
+    "test": "node scripts/test.js"
   },
   "eslintConfig": {
     "extends": [
