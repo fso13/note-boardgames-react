@@ -93,6 +93,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "deploy2": "gh-pages --openssl-legacy-provider -d build",
     "start": "node --openssl-legacy-provider scripts/start.js",
     "build": "node --openssl-legacy-provider scripts/build.js",
     "test": "node --openssl-legacy-provider scripts/test.js"
