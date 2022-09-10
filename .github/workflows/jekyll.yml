@@ -21,14 +21,15 @@ jobs:
           node-version: 17.5.0
           cache: 'npm'
 
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: |
+            **/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+
       - name: Install dependencies
         run: npm install --legacy-peer-deps
-
-      - name: Run the tests and generate coverage report
-        run: npm test -- --coverage --legacy-peer-deps
-
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1
 
       - name: Build
         run: CI=false npm run build
