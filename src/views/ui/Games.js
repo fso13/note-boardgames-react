@@ -133,26 +133,36 @@ const Games = () => {
                         return (
                             <Col sm="6" lg="6" xl="3" key={index}>
                                 <Card>
-                                    <div className="card-img" style={{
-                                        backgroundSize: "cover",
-                                        backgroundPosition: "center",
-                                        paddingBottom: "100%",
-                                        width: "100%",
-                                        backgroundImage: `url(${src.default})`
-                                    }}>
-                                        {/*<CardImg style={imageStyles} resizeMode="cover"  alt={nt.title} src={src.default}/>*/}
+                                    <div style={{position: 'relative'}}>
+                                        <div>{nt.isExtension ? <span style={{
+                                            position: 'absolute',
+                                            top: '8px',
+                                            color: "#ffffff",
+                                            backgroundColor: "#3db13d"
+                                        }}>дополнение</span> : ""}</div>
+                                        <div className="card-img" style={{
+                                            backgroundSize: "cover",
+                                            backgroundPosition: "center",
+                                            paddingBottom: "100%",
+                                            width: "100%",
+                                            backgroundImage: `url(${src.default})`
+                                        }}>
+                                        </div>
                                     </div>
+
                                     <CardBody className="p-4">
                                         <CardTitle tag="h5">{nt.title}</CardTitle>
                                         <CardSubtitle
                                             className="text-primary">от {nt.playersMin} до {nt.playersMax} игроков</CardSubtitle>
-                                            <CardSubtitle
+                                        <CardSubtitle
                                             className="text-primary">{nt.time}</CardSubtitle>
                                         <CardText className="mt-3 truncate-text">
                                             <div className="mt-3 truncate-text"
                                                  dangerouslySetInnerHTML={{__html: nt.descriptionShort}}/>
                                         </CardText>
-                                        <Button color="primary" onClick={() => navigate(`/games/${nt.id}`)}>Читать
+                                        <Button style={{opacity: 0, height: '0px', width: '0px', padding: 0}}></Button>
+                                        <Button style={{zIndex: 20, position: 'absolute'}} color="primary"
+                                                onClick={() => navigate(`/games/${nt.id}`)}>Читать
                                             далее</Button>
                                     </CardBody>
                                 </Card>
