@@ -18,13 +18,17 @@ import {
 } from "reactstrap";
 import GamesJson from "../../static/games.json";
 import React from "react";
-import {useNavigate} from "react-router";
+import {useNavigate, useNavigatem} from "react-router";
 import MetaTags from "react-meta-tags";
+import {NavHashLink} from "react-router-hash-link";
 
 const qs = require('query-string');
 
 
 const Games = () => {
+    var alf = Array.from(new Set(GamesJson.map((nt) => nt.title[0])))
+    console.log(alf)
+
     const query = qs.parse(window.location.search);
     console.log(window.location.search)
     let players = query.players
@@ -55,7 +59,21 @@ const Games = () => {
                                             for="exampleSelect"
                                             sm={3}>
                                             Для количество игроков
-                                        </Label>
+                                        </Label> <Row>
+
+                                        {alf.map((s, index) => {
+                                            return (
+                                                <Col>
+                                                    <NavHashLink style={{textDecoration: 'none'}} smooth
+                                                                 to={`#${s}`}>{s}</NavHashLink>
+
+                                                </Col>
+
+                                            )
+                                        })}
+                                    </Row>
+
+
                                         <Col sm={2}>
                                             <Input
                                                 defaultValue={players === undefined ? 1 : players}
@@ -140,7 +158,7 @@ const Games = () => {
                                             color: "#ffffff",
                                             backgroundColor: "#3db13d"
                                         }}>дополнение</span> : ""}</div>
-                                        <div className="card-img" style={{
+                                        <div name={nt.title[0]} id={nt.title[0]} className="card-img" style={{
                                             backgroundSize: "cover",
                                             backgroundPosition: "center",
                                             paddingBottom: "100%",
@@ -150,7 +168,7 @@ const Games = () => {
                                         </div>
                                     </div>
 
-                                    <CardBody className="p-4">
+                                    <CardBody className="p-4" name={nt.title[0]} id={nt.title[0]}>
                                         <CardTitle tag="h5">{nt.title}</CardTitle>
                                         <CardSubtitle
                                             className="text-primary">от {nt.playersMin} до {nt.playersMax} игроков</CardSubtitle>
