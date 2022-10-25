@@ -40,7 +40,7 @@ export default class Button extends Component {
                 axisXType: "secondary",
                 type: "bar",
 
-                dataPoints: Array.from((Array.from(result.entries()).sort((a,b) => a[1]-b[1])).map((item) => {
+                dataPoints: Array.from((Array.from(result.entries()).sort((a, b) => a[1] - b[1])).map((item) => {
                     return {y: item[1], indexLabel: item[0], indexLabelFontSize: 15}
                 }))
             }]

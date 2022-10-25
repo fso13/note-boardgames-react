@@ -18,7 +18,7 @@ import {
 } from "reactstrap";
 import GamesJson from "../../static/games.json";
 import React from "react";
-import {useNavigate, useNavigatem} from "react-router";
+import {useNavigate} from "react-router";
 import MetaTags from "react-meta-tags";
 import {NavHashLink} from "react-router-hash-link";
 

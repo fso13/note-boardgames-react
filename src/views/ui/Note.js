@@ -17,8 +17,8 @@ const Note = () => {
         <div>
             <div className="wrapper">
                 <MetaTags>
-                    <title>{noteJson.tags.map((tag)=> tag.title).join(", ")}</title>
-                    <meta id="og-title" property="og:title" content={noteJson.tags.map((tag)=> tag.title).join(", ")}/>
+                    <title>{noteJson.tags.map((tag) => tag.title).join(", ")}</title>
+                    <meta id="og-title" property="og:title" content={noteJson.tags.map((tag) => tag.title).join(", ")}/>
                     <meta id="og-type" property="og:type" content="article"/>
                     <meta id="meta-description" name="og:description" content={noteJson.content}/>
                     <meta id="og-image-alt" name="og:image:alt" content={noteJson.content}/>
@@ -42,7 +42,8 @@ const Note = () => {
                                 <CardTitle tag="h5">{noteJson.title}</CardTitle>
                                 <CardSubtitle className="text-primary">{
                                     noteJson.tags.map((tag) => {
-                                        return (<div><a href={`#/games/${tag.title}`}>{tag.title+'('+tag.count+')'}</a></div>)
+                                        return (<div><a
+                                            href={`#/games/${tag.title}`}>{tag.title + '(' + tag.count + ')'}</a></div>)
                                     })
                                 }</CardSubtitle>
                                 <CardText className="mt-3">
@@ -55,16 +56,19 @@ const Note = () => {
                 </Col>
             </Row>
             <Row className="mt-3">
-            <Col xs="auto"
+                <Col xs="auto"
                      md={{
                          offset: 2,
                          size: 7,
                      }}>
-                <div>
-                    {noteJson.videos!=null ? 
-                    <iframe width="100%" height="315" src={`${noteJson.videos}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    : <div></div>}
-                </div>
+                    <div>
+                        {noteJson.videos != null ?
+                            <iframe width="100%" height="315" src={`${noteJson.videos}`} title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            : <div></div>}
+                    </div>
                 </Col>
             </Row>
             <Row className="mt-3">

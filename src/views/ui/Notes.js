@@ -40,7 +40,9 @@ const Notes = () => {
                                 <CardSubtitle className="text-info">
                                     {
                                         nt.tags.map((tag) => {
-                                            return (<div><a href={`#/games/${tag.title}`}>{tag.title+'('+tag.count+')'}</a></div>)
+                                            return (<div><a
+                                                href={`#/games/${tag.title}`}>{tag.title + '(' + tag.count + ')'}</a>
+                                            </div>)
                                         })
                                     }
                                 </CardSubtitle>
