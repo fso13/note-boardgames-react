@@ -1,5 +1,28 @@
 [
     {
+        "id": 130,
+        "title": "28.12.2022",
+        "content": "Перед новым годом собрались разложить новинку - Максимум Апокалипсис. </br>Прошли обучалку с зомби, и решили повысить сложность. </br>Выбпали мутантов. Их расскидали без проблем. </br>Решили еще раз повысить сложность, выбрали уже пришельцев. Вот с ними уже тяжелее. </br>Игра очень вариативная, думаю хватит надолго. </br></br>Под конец шлифанули вссе каркасоном)",
+        "tags": [
+            {
+                "count": 3,
+                "title": "Максимум Апокалипсис"
+            },
+            {
+                "count": 1,
+                "title": "Каркасон"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/130/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/130/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/130/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/130/4.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/130/5.jpg"
+
+        ]
+    },
+    {
         "id": 129,
         "title": "07.12.2022",
         "content": "Очередная партия в среду.</br>Выбрали коднеймс. Пришли новые игроки, что несказанно радует. ",
