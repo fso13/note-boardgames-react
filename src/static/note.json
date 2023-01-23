@@ -1,5 +1,28 @@
 [
     {
+        "id": 132,
+        "title": "20.01.2023",
+        "content": "Дошли руки до Кросмастера. Я присмотрел ее еще лет 7 назад. И вот наконц то пощупал. </br>Первый раз играли вчетвером, каждый сам за себя. Во второй раз командой по двое.</br>Интересный процесс, но не хватает домашних правил. </br>Ну и пара партий в кодовые имена (уже почти традиция)",
+        "tags": [
+            {
+                "count": 2,
+                "title": "Кросмастер Арена 2.0"
+            },
+            {
+                "count": 1,
+                "title": "Codenames"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/132/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/132/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/132/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/132/4.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/132/5.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/132/6.jpg"
+        ]
+    },
+    {
         "id": 131,
         "title": "07.01.2023",
         "content": "Первая сессия в новом году. Разогрелись парой партий в максимум аппокалипсис. Далее расшевелили мозги в криптид. Покатались на поезде в особняках безумия. И закончили вечер строя дороги, монастери и города в каркассоне",
