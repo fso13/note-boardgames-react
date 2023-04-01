@@ -1,5 +1,31 @@
 [
     {
+        "id": 137,
+        "title": "01.04.2023",
+        "content": "Решили сначала разложить Крылья. Не задалось с кормом и птицами, но не сильно отстал от победителя.</br></br>Далее строили империи в Поселенцах. Не люблю играть японцами. Единственная нация незащищенная от разрушения соперниками. </br></br>На последок рисовали стрелочки в Бумажных подземельях. ",
+        "tags": [
+            {
+                "count": 1,
+                "title": "Крылья"
+            },
+            {
+                "count": 1,
+                "title": "Поселенцы"
+            },
+            {
+                "count": 1,
+                "title": "Бумажные подземелья"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/137/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/137/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/137/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/137/4.jpg"
+
+        ]
+    },
+    {
         "id": 136,
         "title": "18.03.2023",
         "content": "Давно собирались в остров духов, да еще и с усложнением. Выбрали Пруссию. </br>Удалось победить только за счет пролистывания колоды страха.</br></br>Дальше разложили котиков. Милейшая с виду игра, но мозгодробительная по сути.</br></br>Напоследок разложили пасьянс - Наместник. Одна из первых моих игр, и до сих пор нравится. ",
