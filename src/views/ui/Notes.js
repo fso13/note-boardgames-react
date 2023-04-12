@@ -3,6 +3,7 @@ import NotesJson from "../../static/note.json";
 import React from "react";
 import {useNavigate} from "react-router";
 import MetaTags from "react-meta-tags";
+import './Notes.css';
 
 const Notes = () => {
     let navigate = useNavigate();
