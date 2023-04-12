@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/views/ui/Notes.css"],"names":[],"mappings":"AAAA,mBACI,UAAW,CACX,eACF","file":"8.e4b9a846.chunk.css","sourcesContent":[".carousel-item > img { \n    width: 100%; \n    object-fit: fill;\n  }"]}
