@@ -16,9 +16,7 @@ export default class Button extends Component {
             }
         });
 
-        ListGameName.sort();
-        let result = ListGameName.reduce((acc, e) => acc.set(e, (acc.get(e) || 0) + 1), new Map());
-        console.log(result.entries());
+        let result = ListGameName.reduce((acc, e) => acc.set(e.title, (acc.get(e.title) || 0) + e.count), new Map());
 
         const options = {
             height: 1000,
@@ -42,7 +40,7 @@ export default class Button extends Component {
                 axisXType: "secondary",
                 type: "bar",
 
-                dataPoints: Array.from(Array.from(result.entries()).map((item) => {
+                dataPoints: Array.from((Array.from(result.entries()).sort((a, b) => a[1] - b[1])).map((item) => {
                     return {y: item[1], indexLabel: item[0], indexLabelFontSize: 15}
                 }))
             }]

@@ -1,4 +1,13 @@
-import {Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Media, Row, UncontrolledCarousel,} from "reactstrap";
+import {
+    Card,
+    CardBody,
+    CardSubtitle,
+    CardText,
+    CardTitle,
+    Col,
+    Media,
+    Row,
+} from "reactstrap";
 import React from "react";
 import GamesJson from "../../static/games.json";
 import {useParams} from "react-router";
@@ -40,33 +49,54 @@ const Game = () => {
                         </MetaTags>
                     </div>
                     <Row className="mt-3">
-                        <Col xs="auto"
-                             md={{
-                                 offset: 3,
-                                 size: 5,
-                             }}>
-                            <div className="bg-light p-2 border">
-                                <UncontrolledCarousel className="img-fluid"
-                                                      items={[{
-                                                          key: 1,
-                                                          src: src.default
 
-                                                      }]}
-                                />
-                            </div>
-                        </Col>
+
                         <Col xs="auto">
                             <Media>
                                 <Media body>
-                                    <Media heading>
-                                        {gameJson.title}
-                                    </Media>
                                     <div className="bg-light p-2 border">
                                         <Card>
+                                            <Row className="mt-3">
+
+                                                <Col sm="8" lg="8" xl="4"
+                                                     lg={{
+                                                         offset: 4,
+                                                         size: 5,
+                                                     }}
+                                                     md={{
+                                                         offset: 3,
+                                                         size: 5,
+                                                     }}
+                                                     sm={{
+                                                         offset: 1,
+                                                         size: 10,
+                                                     }}
+                                                >
+                                                    <div style={{position: 'relative'}}>
+                                                        <div>{gameJson.isExtension ? <span style={{
+                                                            position: 'absolute',
+                                                            top: '8px',
+                                                            color: "#ffffff",
+                                                            backgroundColor: "#3db13d"
+                                                        }}>дополнение</span> : ""}</div>
+                                                        <div className="card-img" style={{
+                                                            backgroundSize: "cover",
+                                                            backgroundPosition: "center",
+                                                            paddingBottom: "100%",
+                                                            width: "100%",
+                                                            backgroundImage: `url(${src.default})`
+                                                        }}>
+                                                        </div>
+                                                    </div>
+                                                </Col>
+                                            </Row>
                                             <CardBody className="p-4">
-                                                <CardTitle tag="h5">{gameJson.title}</CardTitle>
+                                                <CardTitle tag="h4">{gameJson.title}</CardTitle>
+                                                <CardSubtitle className="mt-3">{'\n'}</CardSubtitle>
                                                 <CardSubtitle
                                                     className="text-primary">от {gameJson.playersMin} до {max} игроков</CardSubtitle>
+                                                <CardSubtitle
+                                                    className="text-primary">{gameJson.time}</CardSubtitle>
                                                 <CardText className="mt-3">
                                                     <div className="mt-3"
                                                          dangerouslySetInnerHTML={{__html: gameJson.description}}/>

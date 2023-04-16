@@ -20,11 +20,15 @@ import GamesJson from "../../static/games.json";
 import React from "react";
 import {useNavigate} from "react-router";
 import MetaTags from "react-meta-tags";
+import {NavHashLink} from "react-router-hash-link";
 
 const qs = require('query-string');
 
 
 const Games = () => {
+    var alf = Array.from(new Set(GamesJson.map((nt) => nt.title[0])))
+    console.log(alf)
+
     const query = qs.parse(window.location.search);
     console.log(window.location.search)
     let players = query.players
@@ -55,7 +59,21 @@ const Games = () => {
                                             for="exampleSelect"
                                             sm={3}>
                                             Для количество игроков
-                                        </Label>
+                                        </Label> <Row>
+
+                                        {alf.map((s, index) => {
+                                            return (
+                                                <Col>
+                                                    <NavHashLink style={{textDecoration: 'none'}} smooth
+                                                                 to={`#${s}`}>{s}</NavHashLink>
+
+                                                </Col>
+
+                                            )
+                                        })}
+                                    </Row>
+
+
                                         <Col sm={2}>
                                             <Input
                                                 defaultValue={players === undefined ? 1 : players}
@@ -133,24 +151,36 @@ const Games = () => {
                         return (
                             <Col sm="6" lg="6" xl="3" key={index}>
                                 <Card>
-                                    <div className="card-img" style={{
-                                        backgroundSize: "cover",
-                                        backgroundPosition: "center",
-                                        paddingBottom: "100%",
-                                        width: "100%",
-                                        backgroundImage: `url(${src.default})`
-                                    }}>
-                                        {/*<CardImg style={imageStyles} resizeMode="cover"  alt={nt.title} src={src.default}/>*/}
+                                    <div style={{position: 'relative'}}>
+                                        <div>{nt.isExtension ? <span style={{
+                                            position: 'absolute',
+                                            top: '8px',
+                                            color: "#ffffff",
+                                            backgroundColor: "#3db13d"
+                                        }}>дополнение</span> : ""}</div>
+                                        <div name={nt.title[0]} id={nt.title[0]} className="card-img" style={{
+                                            backgroundSize: "cover",
+                                            backgroundPosition: "center",
+                                            paddingBottom: "100%",
+                                            width: "100%",
+                                            backgroundImage: `url(${src.default})`
+                                        }}>
+                                        </div>
                                     </div>
-                                    <CardBody className="p-4">
+
+                                    <CardBody className="p-4" name={nt.title[0]} id={nt.title[0]}>
                                         <CardTitle tag="h5">{nt.title}</CardTitle>
                                         <CardSubtitle
                                             className="text-primary">от {nt.playersMin} до {nt.playersMax} игроков</CardSubtitle>
+                                        <CardSubtitle
+                                            className="text-primary">{nt.time}</CardSubtitle>
                                         <CardText className="mt-3 truncate-text">
                                             <div className="mt-3 truncate-text"
                                                  dangerouslySetInnerHTML={{__html: nt.descriptionShort}}/>
                                         </CardText>
-                                        <Button color="primary" onClick={() => navigate(`/games/${nt.id}`)}>Читать
+                                        <Button style={{opacity: 0, height: '0px', width: '0px', padding: 0}}></Button>
+                                        <Button style={{zIndex: 20, position: 'absolute'}} color="primary"
+                                                onClick={() => navigate(`/games/${nt.id}`)}>Читать
                                             далее</Button>
                                     </CardBody>
                                 </Card>

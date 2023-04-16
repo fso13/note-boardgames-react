@@ -3,6 +3,7 @@ import NotesJson from "../../static/note.json";
 import React from "react";
 import {useNavigate} from "react-router";
 import MetaTags from "react-meta-tags";
+import './Notes.css';
 
 const Notes = () => {
     let navigate = useNavigate();
@@ -40,7 +41,9 @@ const Notes = () => {
                                 <CardSubtitle className="text-info">
                                     {
                                         nt.tags.map((tag) => {
-                                            return (<div><a href={`#/games/${tag}`}>{tag}</a></div>)
+                                            return (<div><a
+                                                href={`#/games/${tag.title}`}>{tag.title + '(' + tag.count + ')'}</a>
+                                            </div>)
                                         })
                                     }
                                 </CardSubtitle>
