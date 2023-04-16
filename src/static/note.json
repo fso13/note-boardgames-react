@@ -1,5 +1,28 @@
 [
     {
+        "id": 138,
+        "title": "14.04.2023",
+        "content": "Прошли вторую часть ваншота по ДнД. Герои узнали кто и для чего их заманил на остров. Теперь им надо это остановить. </br>Отличный сценарий получился. </br>Спасибо мастеру за игру. </br></br>Расскидали на последок каркассон.",
+        "tags": [
+            {
+                "count": 1,
+                "title": "D&D 5"
+            },
+            {
+                "count": 1,
+                "title": "Каркассон"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/138/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/138/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/138/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/138/4.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/138/5.jpg"
+
+        ]
+    },
+    {
         "id": 137,
         "title": "01.04.2023",
         "content": "Решили сначала разложить Крылья. Не задалось с кормом и птицами, но не сильно отстал от победителя.</br></br>Далее строили империи в Поселенцах. Не люблю играть японцами. Единственная нация незащищенная от разрушения соперниками. </br></br>На последок рисовали стрелочки в Бумажных подземельях. ",
@@ -1269,7 +1292,7 @@
         "tags": [
             {
                 "count": 1,
-                "title": "Ticket to Ride: Europa"
+                "title": "Ticket to Ride: Европа"
             }
         ]
     },
@@ -1457,7 +1480,7 @@
         "tags": [
             {
                 "count": 1,
-                "title": "Ticket to Ride: Europa"
+                "title": "Ticket to Ride: Европа"
             }
         ]
     },
@@ -1663,7 +1686,7 @@
         "tags": [
             {
                 "count": 2,
-                "title": "Ticket to Ride: Europa"
+                "title": "Ticket to Ride: Европа"
             }
         ]
     },
@@ -1787,7 +1810,7 @@
         "tags": [
             {
                 "count": 2,
-                "title": "Ticket to Ride: Europa"
+                "title": "Ticket to Ride: Европа"
             }
         ]
     },
@@ -1929,7 +1952,7 @@
         "tags": [
             {
                 "count": 1,
-                "title": "Ticket to Ride: Europa"
+                "title": "Ticket to Ride: Европа"
             }
         ]
     },
