@@ -1,4 +1,31 @@
 [
+    
+    {
+        "id": 139,
+        "title": "28.04.2023",
+        "content": "Решили начать вторую компанию бладборна.</br>В начале( два хода) было все хорошо, а потом началось. Двое персонажей траванулись, потом раундов 5, пытались вальнуть квестового монстра. Получилось, но он успел нас каждого вальнуть. В итоге не успели просто набрать 5 очков. Жестко.</br></br>Чтоб отойти, разложили пасьянс - Экосистему. </br></br>И на последок коднеймс. Выиграло черное слово, 4 раза из 5 его называли.",
+        "tags": [
+            {
+                "count": 1,
+                "title": "Bloodborne: The Board Game"
+            },
+            {
+                "count": 1,
+                "title": "Экосистема"
+            },
+            {
+                "count": 1,
+                "title": "Codenames"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/139/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/139/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/139/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/139/4.jpg"
+
+        ]
+    },
     {
         "id": 138,
         "title": "14.04.2023",
