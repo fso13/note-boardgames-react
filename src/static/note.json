@@ -1,5 +1,22 @@
 [
-    
+    {
+        "id": 140,
+        "title": "12.05.2023",
+        "content": "Хотели поиграть в командный режив в Кикладах. Почитали правила, и не очень они нам понравлись. Смысла играть командой нет. Так что просто играли со всеми домпами , на новой карте.</br>Титаны тащят, дают новую стратегию, и не надо дожидаться Ареса или Аида.</br>Интересное решение с малыми богами, теперь есть смысл ходить предпоследним.</br>В итоге, играли 4 часа. Концовка полный фарш, Аид был рад.",
+        "tags": [
+            {
+                "count": 1,
+                "title": "Киклады"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/140/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/140/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/140/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/140/4.jpg"
+
+        ]
+    },
     {
         "id": 139,
         "title": "28.04.2023",
