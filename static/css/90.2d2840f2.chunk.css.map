@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/90.2d2840f2.chunk.css","mappings":"AAAA,OAEE,YAAa,CACb,YAAa,CAFb,iBAAkB,CAGlB,UAAW","sources":["views/ui/Chart.scss"],"sourcesContent":[".chart {\n  position: relative;\n  display: flex;\n  height: 100vh;\n  width: 100%;\n}\n\n"],"names":[],"sourceRoot":""}
