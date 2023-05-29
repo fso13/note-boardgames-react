@@ -11,7 +11,6 @@ import {
 import React from "react";
 import GamesJson from "../../static/games.json";
 import {useParams} from "react-router";
-import MetaTags from "react-meta-tags";
 
 const Game = () => {
 
@@ -22,11 +21,13 @@ const Game = () => {
     });
 
     console.log(gameJsons.length > 0)
+
     let gameJson = null;
     let max;
     let src;
     if (gameJsons.length > 0) {
         gameJson = gameJsons[0];
+        console.log(`../../assets/images/game/${gameJson.id}.jpg`);
         max = gameJson.playersMax;
         src = require(`../../assets/images/game/${gameJson.id}.jpg`);
     }
@@ -36,18 +37,6 @@ const Game = () => {
         <div>
             {gameJson != null ? (
                 <div>
-                    <div className="wrapper">
-                        <MetaTags>
-                            <title>{gameJson.title}</title>
-                            <meta id="og-title" property="og:title" content={gameJson.title}/>
-                            <meta id="og-type" property="og:type" content="article"/>
-                            <meta id="meta-description" name="og:description" content={gameJson.description}/>
-                            <meta id="og-image-alt" name="og:image:alt" content={gameJson.description}/>
-                            <meta id="og-image" property="og:image" content={gameJson.photoUrl}/>
-                            <meta id="og-image-w" property="og:image:width" content="550"/>
-                            <meta id="og-image-h" property="og:image:height" content="550"/>
-                        </MetaTags>
-                    </div>
                     <Row className="mt-3">
 
 
@@ -84,7 +73,7 @@ const Game = () => {
                                                             backgroundPosition: "center",
                                                             paddingBottom: "100%",
                                                             width: "100%",
-                                                            backgroundImage: `url(${src.default})`
+                                                            backgroundImage: `url(${src})`
                                                         }}>
                                                         </div>
                                                     </div>

@@ -2,19 +2,13 @@ import {Button, Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Row, Unc
 import NotesJson from "../../static/note.json";
 import React from "react";
 import {useNavigate} from "react-router";
-import MetaTags from "react-meta-tags";
 import './Notes.css';
 
 const Notes = () => {
     let navigate = useNavigate();
     return (
         <div>
-            <div className="wrapper">
-                <MetaTags>
-                    <title>Игротеки</title>
-                    <meta id="og-title" property="og:title" content="Игротеки"/>
-                </MetaTags>
-            </div>
+            
             <Row>
                 {NotesJson.map((nt, index) => (
                     <Col sm="6" lg="6" xl="3" key={index}>

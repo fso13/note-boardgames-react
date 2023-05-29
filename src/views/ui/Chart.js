@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import NotesJson from "../../static/note.json";
 import * as CanvasJSReact from "canvasjs-react-charts";
 import "./Chart.scss";
-import MetaTags from "react-meta-tags";
 
 var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
@@ -48,12 +47,7 @@ export default class Button extends Component {
 
         return (
             <div>
-                <div className="wrapper">
-                    <MetaTags>
-                        <title>Статистика</title>
-                        <meta id="og-title" property="og:title" content="Статистика"/>
-                    </MetaTags>
-                </div>
+                
                 <div className={"chart"}>
                     <CanvasJSChart options={options} className={"chart"}
                     />

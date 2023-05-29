@@ -19,29 +19,22 @@ import {
 import GamesJson from "../../static/games.json";
 import React from "react";
 import {useNavigate} from "react-router";
-import MetaTags from "react-meta-tags";
 import {NavHashLink} from "react-router-hash-link";
+import queryString from 'query-string'
 
-const qs = require('query-string');
 
 
 const Games = () => {
     var alf = Array.from(new Set(GamesJson.map((nt) => nt.title[0])))
     console.log(alf)
 
-    const query = qs.parse(window.location.search);
+    const query = queryString.parse(window.location.search);
     console.log(window.location.search)
     let players = query.players
 
     let navigate = useNavigate();
     return (
         <div>
-            <div className="wrapper">
-                <MetaTags>
-                    <title>Коллекция игр</title>
-                    <meta id="og-title" property="og:title" content="Коллекция игр"/>
-                </MetaTags>
-            </div>
             <div>
                 <div>
                     <UncontrolledAccordion
@@ -146,7 +139,8 @@ const Games = () => {
             <br/>
             <Row>
                 {GamesJson.map((nt, index) => {
-                    const src = require(`../../assets/images/game/${nt.id}.jpg`);
+                    const src = require(`/src/assets/images/game/${nt.id}.jpg`);
+
                     if ((players === undefined || players === '' || nt.playersMin <= players) && (players === undefined || players === '' || nt.playersMax >= players)) {
                         return (
                             <Col sm="6" lg="6" xl="3" key={index}>
@@ -163,7 +157,7 @@ const Games = () => {
                                             backgroundPosition: "center",
                                             paddingBottom: "100%",
                                             width: "100%",
-                                            backgroundImage: `url(${src.default})`
+                                            backgroundImage: `url(${src})`
                                         }}>
                                         </div>
                                     </div>

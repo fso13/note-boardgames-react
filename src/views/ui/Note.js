@@ -2,7 +2,6 @@ import {Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Row, Uncontrolle
 import React from "react";
 import NotesJson from "../../static/note.json";
 import {useLocation, useParams} from "react-router";
-import MetaTags from 'react-meta-tags';
 
 const Note = () => {
 
@@ -15,21 +14,7 @@ const Note = () => {
     return (
 
         <div>
-            <div className="wrapper">
-                <MetaTags>
-                    <title>{noteJson.tags.map((tag) => tag.title).join(", ")}</title>
-                    <meta id="og-title" property="og:title" content={noteJson.tags.map((tag) => tag.title).join(", ")}/>
-                    <meta id="og-type" property="og:type" content="article"/>
-                    <meta id="meta-description" name="og:description" content={noteJson.content}/>
-                    <meta id="og-image-alt" name="og:image:alt" content={noteJson.content}/>
-                    {noteJson.files != null ?
-
-                        <meta id="og-image" property="og:image" content={noteJson.files[0]}/> : <div/>}
-                    <meta id="og-image-w" property="og:image:width" content="550"/>
-                    <meta id="og-image-h" property="og:image:height" content="550"/>
-                    <meta content={useLocation()} property="og:url"/>
-                </MetaTags>
-            </div>
+            
             <Row>
                 <Col xs="auto"
                      md={{
