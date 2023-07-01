@@ -1,5 +1,34 @@
 [
     {
+        "id": 143,
+        "title": "30.06.2023",
+        "content": "Спустя три недели собрались.</br></br>Дважды боролись за звание Повелителя Токио.</br></br>Один раз боролись с роботами в Максимум Апокалипсис.</br></br>И один раз бежали и мешали друг другу в Большой бродилке.",
+        "tags": [
+            {
+                "count": 2,
+                "title": "Повелитель Токио"
+            },
+            {
+                "count": 1,
+                "title": "Максимум Апокалипсис"
+            },
+            {
+                "count": 1,
+                "title": "Большая бродилка"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/143/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/143/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/143/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/143/4.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/143/5.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/143/6.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/143/7.jpg"
+
+        ]
+    },
+    {
         "id": 142,
         "title": "09.06.2023",
         "content": "Вечером были только новинки.</br></br>Начали с Медвежьего парка. Прикольная семейная тетрис игра. Безконфликтная, медитативная.</br></br>Дальше разложили Магов леса. Вот тут конфликтов предостаточно. Нет какой то конкретной стратегии, нужно постоянно анализировать ситуацию на столе. Надо еще раза 4-5 поиграть, что бы разобраться во всех способностях.</br></br>На последок вспомнили детство, и открыли Большую бродилку. Игра кинь-двинь с элементами манчкина. Идеальная игра, когда не хочешь сильно думать, а просто повеселиться.",
