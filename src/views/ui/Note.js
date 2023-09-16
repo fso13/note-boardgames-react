@@ -17,12 +17,12 @@ const Note = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <meta property="og:type" content="website"></meta>
-                <title>{noteJson.title}</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 <meta name="description" content={noteJson.content} />
                 <meta name="og:description" content={noteJson.content} />
                 <meta property="og:description" content={noteJson.content} />
                 <meta property="og:title" content={noteJson.title} />
+                <meta property="vk:image" content={noteJson.files[0]} />
                 <meta property="og:image" content={noteJson.files[0]} />
                 <meta property="og:image:alt" content={noteJson.content} />
             </Helmet>
