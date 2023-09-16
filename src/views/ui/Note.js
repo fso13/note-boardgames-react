@@ -2,6 +2,7 @@ import {Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Row, Uncontrolle
 import React from "react";
 import NotesJson from "../../static/note.json";
 import {useLocation, useParams} from "react-router";
+import {Helmet} from "react-helmet";
 
 const Note = () => {
 
@@ -12,9 +13,16 @@ const Note = () => {
     })[0];
 
     return (
-
-        <div>
-            
+        <div className="application">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>{noteJson.title}</title>
+                <meta name="description" content={noteJson.content} />
+                <meta name="og:description" content={noteJson.content} />
+                <meta property="og:description" content={noteJson.content} />
+                <meta property="og:title" content={noteJson.title} />
+                <meta property="og:image" content={noteJson.files[0]} />
+            </Helmet>
             <Row>
                 <Col xs="auto"
                      md={{
