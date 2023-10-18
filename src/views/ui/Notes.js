@@ -1,5 +1,5 @@
 import {Button, Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Row, UncontrolledCarousel} from "reactstrap";
-import NotesJson from "../../static/note.json";
+import {NotesJson} from "../../static/NotesJson";
 import React from "react";
 import {useNavigate} from "react-router";
 import './Notes.css';

@@ -4,7 +4,7 @@ import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import listYear from '@fullcalendar/list';
 import timeGridDay from '@fullcalendar/timegrid';
-import NotesJson from "../../static/note.json";
+import {NotesJson} from "../../static/NotesJson";
 
 const Calendar = () => {
     return (

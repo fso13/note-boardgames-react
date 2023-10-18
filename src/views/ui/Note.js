@@ -1,6 +1,6 @@
 import {Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Row, UncontrolledCarousel,} from "reactstrap";
 import React from "react";
-import NotesJson from "../../static/note.json";
+import {NotesJson} from "../../static/NotesJson";
 import {useLocation, useParams} from "react-router";
 import {Helmet} from "react-helmet";
 

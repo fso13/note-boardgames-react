@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import NotesJson from "../../static/note.json";
+import {NotesJson} from "../../static/NotesJson";
 import * as CanvasJSReact from "canvasjs-react-charts";
 import "./Chart.scss";
 

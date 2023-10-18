@@ -9,7 +9,7 @@ import {
     Row,
 } from "reactstrap";
 import React from "react";
-import GamesJson from "../../static/games.json";
+import {GamesJson} from "../../static/GamesJson";
 import {useParams} from "react-router";
 
 const Game = () => {
