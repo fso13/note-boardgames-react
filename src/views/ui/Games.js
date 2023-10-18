@@ -16,7 +16,7 @@ import {
     Row,
     UncontrolledAccordion
 } from "reactstrap";
-import GamesJson from "../../static/games.json";
+import {GamesJson} from "../../static/GamesJson";
 import React from "react";
 import {useNavigate} from "react-router";
 import {NavHashLink} from "react-router-hash-link";
