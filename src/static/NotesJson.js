@@ -1,5 +1,47 @@
 export const NotesJson = [
     {
+        "id": 149,
+        "title": "06.10.2023",
+        "content": `Пока ждали третьего подуэлились в Цветрикс и решили еще в кооп Конец Вечности.
+        Вот это мы там отгребли.
+        С одной единичкой жищни все так пролистали всю колоду босса и спасли город.
+        </br></br>
+        Опробовали новинку -Охотники за реликвиями. Годный колодострой. Изумительный арт. Надо еще.
+        </br></br>
+        Закончили филлером - Неудержимые единорожек. Первая партия прошла мгновенно, а вот вторая затянулась не на шутку.
+        Прикольная и веселая, самое то что бы просто поржать.
+        `,
+
+        "tags": [
+            {
+                "count": 2,
+                "title": "Цветрикс"
+            },
+            {
+                "count": 1,
+                "title": "Конец вечности"
+            },
+            {
+                "count": 1,
+                "title": "Охотники за реликвиями"
+            },
+            {
+                "count": 2,
+                "title": "Неудержимые единорожки"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/149/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/149/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/149/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/149/4.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/149/5.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/149/6.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/149/7.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/149/8.jpg"
+        ]
+    },
+    {
         "id": 148,
         "title": "06.10.2023",
         "content": `Три партии в дуэль - Звездные империи. Давно не доставали, но все еще считаю одной из лучших колодостроев.</br></br>Одна партия в Саграду. Мастера из нас так себе, оба полностью не сделали витражи.</br></br>И на последок, три партии в Клонов. Поняли одно - четвертый персонаж(бегун) самый ущербный по абилкам. Но может мы чего то не поняли.`,
