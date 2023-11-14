@@ -1,5 +1,32 @@
 export const NotesJson = [
     {
+        "id": 150,
+        "title": "10.11.2023",
+        "content": `Давно не играли в особняки, и решили взять миссию с максимальной сложностью. Как оказалось в сценарии используется система ролей. ОДин из нас был предателем. Им оказался я).
+        В итоге выгадав момент, я умпел телепортировать одного сопартийца подальше. Конечно меня успели связать, но не успели выбраться. Так что победили глубоководные. Да славься Ктулху.
+        </br></br>
+        НУ и в конце потренировали ассоциации в коднеймс. БОевая ничья.
+        `,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Особняки безумия"
+            },
+            {
+                "count": 1,
+                "title": "Codenames"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/150/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/150/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/150/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/150/4.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/150/5.jpg"
+        ]
+    },
+    {
         "id": 149,
         "title": "06.10.2023",
         "content": `Пока ждали третьего подуэлились в Цветрикс и решили еще в кооп Конец Вечности.
