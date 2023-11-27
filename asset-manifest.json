@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/note-boardgames-react/static/css/main.307b9602.css",
-    "main.js": "/note-boardgames-react/static/js/main.4ab3dbcc.js",
+    "main.js": "/note-boardgames-react/static/js/main.cbda9e94.js",
     "static/js/870.1aee1d93.chunk.js": "/note-boardgames-react/static/js/870.1aee1d93.chunk.js",
     "static/css/418.15bb8644.chunk.css": "/note-boardgames-react/static/css/418.15bb8644.chunk.css",
     "static/js/418.198af872.chunk.js": "/note-boardgames-react/static/js/418.198af872.chunk.js",
@@ -19,7 +19,7 @@
     "static/js/342.e6841396.chunk.js": "/note-boardgames-react/static/js/342.e6841396.chunk.js",
     "static/js/465.0d50bac5.chunk.js": "/note-boardgames-react/static/js/465.0d50bac5.chunk.js",
     "static/js/309.2ff563f0.chunk.js": "/note-boardgames-react/static/js/309.2ff563f0.chunk.js",
-    "static/js/393.459a63c1.chunk.js": "/note-boardgames-react/static/js/393.459a63c1.chunk.js",
+    "static/js/393.34f99274.chunk.js": "/note-boardgames-react/static/js/393.34f99274.chunk.js",
     "static/media/33520.jpg": "/note-boardgames-react/static/media/33520.ff25ce18c062a66a9f0e.jpg",
     "static/media/9068.jpg": "/note-boardgames-react/static/media/9068.4cb144910cafd406c7e7.jpg",
     "static/media/4161.jpg": "/note-boardgames-react/static/media/4161.2d3bea6a0934530277e4.jpg",
@@ -31,10 +31,14 @@
     "static/media/13357.jpg": "/note-boardgames-react/static/media/13357.0bbd5924ff9880454196.jpg",
     "static/media/191189.jpg": "/note-boardgames-react/static/media/191189.0f4c42580a12fdd56cf8.jpg",
     "static/media/332386.jpg": "/note-boardgames-react/static/media/332386.4f8ebc4c6243978f7266.jpg",
+    "static/media/237182.jpg": "/note-boardgames-react/static/media/237182.245362df6a5c45c8f8bb.jpg",
+    "static/media/241386.jpg": "/note-boardgames-react/static/media/241386.1378809c28c4452c3245.jpg",
+    "static/media/272637.jpg": "/note-boardgames-react/static/media/272637.7be87aee5cc54ab86a8e.jpg",
     "static/media/13340.jpg": "/note-boardgames-react/static/media/13340.8e823ae893d9d2506855.jpg",
     "static/media/203416.jpg": "/note-boardgames-react/static/media/203416.bd6ea3e56ab1d759899d.jpg",
     "static/media/307534.jpg": "/note-boardgames-react/static/media/307534.666db1c9f12eb86585b4.jpg",
     "static/media/219513.jpg": "/note-boardgames-react/static/media/219513.a75e1a23867c7d7c84ae.jpg",
+    "static/media/340466.jpg": "/note-boardgames-react/static/media/340466.7f86837f419705ecca5b.jpg",
     "static/media/217424.jpg": "/note-boardgames-react/static/media/217424.cc9a92e59d47a2ae0b9f.jpg",
     "static/media/919.jpg": "/note-boardgames-react/static/media/919.060541eb51d859f6fc3d.jpg",
     "static/media/11721.jpg": "/note-boardgames-react/static/media/11721.1a6930ce70a05c83555a.jpg",
@@ -111,7 +115,7 @@
     "static/media/11055.jpg": "/note-boardgames-react/static/media/11055.c7fedca8321bacfe8856.jpg",
     "index.html": "/note-boardgames-react/index.html",
     "main.307b9602.css.map": "/note-boardgames-react/static/css/main.307b9602.css.map",
-    "main.4ab3dbcc.js.map": "/note-boardgames-react/static/js/main.4ab3dbcc.js.map",
+    "main.cbda9e94.js.map": "/note-boardgames-react/static/js/main.cbda9e94.js.map",
     "870.1aee1d93.chunk.js.map": "/note-boardgames-react/static/js/870.1aee1d93.chunk.js.map",
     "418.15bb8644.chunk.css.map": "/note-boardgames-react/static/css/418.15bb8644.chunk.css.map",
     "418.198af872.chunk.js.map": "/note-boardgames-react/static/js/418.198af872.chunk.js.map",
@@ -129,10 +133,10 @@
     "342.e6841396.chunk.js.map": "/note-boardgames-react/static/js/342.e6841396.chunk.js.map",
     "465.0d50bac5.chunk.js.map": "/note-boardgames-react/static/js/465.0d50bac5.chunk.js.map",
     "309.2ff563f0.chunk.js.map": "/note-boardgames-react/static/js/309.2ff563f0.chunk.js.map",
-    "393.459a63c1.chunk.js.map": "/note-boardgames-react/static/js/393.459a63c1.chunk.js.map"
+    "393.34f99274.chunk.js.map": "/note-boardgames-react/static/js/393.34f99274.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.307b9602.css",
-    "static/js/main.4ab3dbcc.js"
+    "static/js/main.cbda9e94.js"
   ]
 }
