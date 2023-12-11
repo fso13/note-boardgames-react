@@ -1,5 +1,30 @@
 export const NotesJson = [
     {
+        "id": 151,
+        "title": "01.12.2023",
+        "content": `В первый день зимы в новую настолку. Нам так зашел сюжет последнего сценария Особняков безумия, что я решил взять Непостежимое.</br></br>
+        Игра зашла. Роли прям отлично. Но как всегда накосячил, и не замешал вчесто роли человека глубоководного (почему то в правилах это было на обратной стороне книжки).
+        </br></br>
+        Напоследок рубанули в коднеймс.
+        `,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Непостежимое"
+            },
+            {
+                "count": 1,
+                "title": "Codenames"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/151/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/151/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/151/3.jpg",
+        ]
+    },
+    {
         "id": 150,
         "title": "10.11.2023",
         "content": `Давно не играли в особняки, и решили взять миссию с максимальной сложностью. Как оказалось в сценарии используется система ролей. ОДин из нас был предателем. Им оказался я).
