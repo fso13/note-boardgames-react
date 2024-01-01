@@ -1,5 +1,30 @@
 export const NotesJson = [
     {
+        "id": 152,
+        "title": "15.12.2023",
+        "content": `Попробовали командный режим в Клонах. Так и не поняли для чего бегун нужен, безтолковый персонаж.
+        </br></br>
+        Давно не играли в манчкина. Да еще и со 100500 дополнениями).
+        `,
+
+        "tags": [
+            {
+                "count": 2,
+                "title": "Клоны: Перезагрузка"
+            },
+            {
+                "count": 1,
+                "title": "Манчкин"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/152/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/152/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/152/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/152/4.jpg",
+        ]
+    },
+    {
         "id": 151,
         "title": "01.12.2023",
         "content": `В первый день зимы в новую настолку. Нам так зашел сюжет последнего сценария Особняков безумия, что я решил взять Непостижимое.</br></br>
