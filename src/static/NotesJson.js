@@ -1,5 +1,48 @@
 export const NotesJson = [
     {
+        "id": 154,
+        "title": "19.01.2024",
+        "content": `Посмотрел я фильм - Подземелье и драконы. И вспомнил что лежит, пылится коробочка с игрой по DnD. Давно не доставал. Но думаю в этот раз пройдем всю.</br></br>
+        После замков вампиров пошли копать сокровища.
+        `,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Dungeons & Dragons: Castle Ravenloft Board Game"
+            },
+            {
+                "count": 1,
+                "title": "Охотники за реликвиями"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/154/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/154/2.jpg",
+        ]
+    },
+    {
+        "id": 153,
+        "title": "12.01.2024",
+        "content": `После салатов и праздников сил было немного, да и людей тоже. Так что поиграли в дуэль, и потом пошли копать сокровища.</br></br>
+        Напоследок рубанули в тетрис в стиме).
+        `,
+
+        "tags": [
+            {
+                "count": 3,
+                "title": "Звездные империи"
+            },
+            {
+                "count": 1,
+                "title": "Охотники за реликвиями"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/153/1.jpg",
+        ]
+    },
+    {
         "id": 152,
         "title": "15.12.2023",
         "content": `Попробовали командный режим в Клонах. Так и не поняли для чего бегун нужен, безтолковый персонаж.
