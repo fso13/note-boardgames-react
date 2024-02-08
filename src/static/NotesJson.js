@@ -62,6 +62,9 @@ export const NotesJson = [
         ],
         "files": [
             "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/152/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/152/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/152/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/152/4.jpg",
         ]
     },
     {
