@@ -1,5 +1,23 @@
 export const NotesJson = [
     {
+        "id": 155,
+        "title": "09.02.2024",
+        "content": `Собрались вместе монашка, шериф, мясник и кенгуру вместе на диком западе. Решили поохотиться за зомби, но сами стали добычей. Стартовый сценарий на 10 минут затянулся на полтора часа, и то со второй попытки прошли. Со вторым было примерно так же, не учли счетчик ходов. Хорошая игра. Но красить я ее не буду).
+        `,
+
+        "tags": [
+            {
+                "count": 2,
+                "title": "Zombicide: Undead or Alive"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/155/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/155/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/155/3.jpg",
+        ]
+    },
+    {
         "id": 154,
         "title": "19.01.2024",
         "content": `Посмотрел я фильм - Подземелье и драконы. И вспомнил что лежит, пылится коробочка с игрой по DnD. Давно не доставал. Но думаю в этот раз пройдем всю.</br></br>

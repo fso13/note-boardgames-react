@@ -165,6 +165,17 @@ export const GamesJson = [
     time: "45 - 90 мин"
   },
   {
+    id: 6553636,
+    title: "Zombicide: Undead or Alive",
+    alias: "Zombicide: Undead or Alive",
+    descriptionShort: `"Warhammer: Diskwars" — новая версия тактической игры 1999 года Diskwars. В отличие от предшественницы, не является коллекционной — всё необходимое для 2-4 игроков можно найти в коробке. События новой версии игры перенесли на просторы Старого Света мира «Боевого молота» (Warhammer), так что в бою могут сойтись армии орков, демонов Хаоса, высших эльфов и людей Империи.`,
+    description: `Зомбицид в антураже вестерна. С новыми героями и зомби.`,
+    playersMin: 1,
+    playersMax: 6,
+    isExtension: false,
+    time: "60 мин"
+  },
+  {
     id: 7624,
     title: "Алхимики",
     title2: "Alchemists",
