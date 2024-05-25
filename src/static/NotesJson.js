@@ -1,5 +1,70 @@
 export const NotesJson = [
     {
+        "id": 158,
+        "title": "24.05.2024",
+        "content": `Для закрепления знаний и тактик еще раз играли теми же фракциями в Корни. По сути выиграли птицы. Но они подсказали котам что ход не имеет смысла и разрешили переходить. В итоге коты "победили".</br></br>Давно лежала коробка с квестом, прошли неплохо, но выбрали не тот вариант в тконце. Exit квесты по мне лучше.`,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Корни"
+            },
+            {
+                "count": 1,
+                "title": "КвестМастер: Тайна доктора Тайма"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/158/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/158/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/158/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/158/4.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/158/5.jpg",
+        ]
+    },
+    {
+        "id": 157,
+        "title": "04.05.2024",
+        "content": `Что объединяет котов, птиц и мышей? Корни. Игра чумовая, полная ассиметрия. Ходы разные для каждой фракции, способности отличаются как черное и белое. Имея еще допы, играть будет интересно теще долго.</br></br>Для расслабления партейка в экосистему`,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Корни"
+            },
+            {
+                "count": 1,
+                "title": "Экосистема"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/157/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/157/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/157/3.jpg",
+        ]
+    },
+    {
+        "id": 156,
+        "title": "16.03.2024",
+        "content": `Три часа изучение правил и три часа прохзождение обучающего сценария. Хеллбой показал себя с самого начала. </br></br>Пока нас еще четверо, поиграли в кодовые имена.`,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Хеллбой"
+            },
+            {
+                "count": 1,
+                "title": "Codenames"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/156/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/156/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/156/3.jpg",
+        ]
+    },
+    {
         "id": 155,
         "title": "09.02.2024",
         "content": `Собрались вместе монашка, шериф, мясник и кенгуру вместе на диком западе. Решили поохотиться за зомби, но сами стали добычей. Стартовый сценарий на 10 минут затянулся на полтора часа, и то со второй попытки прошли. Со вторым было примерно так же, не учли счетчик ходов. Хорошая игра. Но красить я ее не буду).
