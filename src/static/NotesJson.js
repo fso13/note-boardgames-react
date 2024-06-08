@@ -1,5 +1,27 @@
 export const NotesJson = [
     {
+        "id": 159,
+        "title": "07.06.2024",
+        "content": `Третья мисия в зомбициде. 35 минут говорили они. Где то через два с половиной часа выполнили все части квеста. Долго вспоминали правила, надо чаще играть. </br></br>Две партии в ЗИ. Вторая оказалась затяжной, у одного больше 80 хп, у другого вычищиная колода, где около 20 карт, и только 3 из них это корабли. Остальные - БАЗЫ!!!!</br>Крези.`,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Zombicide: Undead or Alive"
+            },
+            {
+                "count": 2,
+                "title": "Звёздные империи"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/159/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/159/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/159/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/159/4.jpg",
+        ]
+    },
+    {
         "id": 158,
         "title": "24.05.2024",
         "content": `Для закрепления знаний и тактик еще раз играли теми же фракциями в Корни. По сути выиграли птицы. Но они подсказали котам что ход не имеет смысла и разрешили переходить. В итоге коты "победили".</br></br>Давно лежала коробка с квестом, прошли неплохо, но выбрали не тот вариант в тконце. Exit квесты по мне лучше.`,
