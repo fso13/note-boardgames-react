@@ -1,5 +1,35 @@
 export const NotesJson = [
     {
+        "id": 160,
+        "title": "12.07.2024",
+        "content": `Новинка - Ктулху: Смерть может умереть. Экшен, экшен и еще раз экшен. Слишком долго топлатись у входа, из за этого Ктулху успелш очень рано появиться. Половину хп снесли, но следующим ходом сыщики обезумили.`,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Revolver Noir"
+            },
+            {
+                "count": 1,
+                "title": "Звёздные империи"
+            },
+            {
+                "count": 1,
+                "title": "Ктулху: Смерть может умереть"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/160/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/160/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/160/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/160/4.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/160/5.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/160/6.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/160/7.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/160/4.jpg",
+        ]
+    },
+    {
         "id": 159,
         "title": "07.06.2024",
         "content": `Третья мисия в зомбициде. 35 минут говорили они. Где то через два с половиной часа выполнили все части квеста. Долго вспоминали правила, надо чаще играть. </br></br>Две партии в ЗИ. Вторая оказалась затяжной, у одного больше 80 хп, у другого вычищиная колода, где около 20 карт, и только 3 из них это корабли. Остальные - БАЗЫ!!!!</br>Крези.`,
