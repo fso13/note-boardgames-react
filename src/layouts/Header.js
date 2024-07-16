@@ -11,7 +11,7 @@ const Header = () => {
         document.getElementById("sidebarArea").classList.toggle("showSidebar");
     };
     return (
-        <Navbar color="white" light expand="md" className="fix-header">
+        <Navbar title="Бардовский университет" color="dark" light expand="md" className="fix-header">
             <div className="d-flex align-items-center">
                 <div className="d-lg-block d-none me-5 pe-3">
                     <Logo/>
