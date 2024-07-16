@@ -6,8 +6,11 @@ import {
     CardTitle,
     Col,
     Media,
-    Row,
+    Row
 } from "reactstrap";
+
+import Image from 'react-bootstrap/Image';
+
 import React from "react";
 import {GamesJson} from "../../static/GamesJson";
 import {useParams} from "react-router";
@@ -68,6 +71,12 @@ const Game = () => {
                                                             color: "#ffffff",
                                                             backgroundColor: "#3db13d"
                                                         }}>дополнение</span> : ""}</div>
+                                                        <div style={{
+                                                             
+                                                            position: 'absolute',
+                                                            top: '-15px',
+                                                            right: '-15px',
+                                                        }}> <Image style={{border: '3px solid  #2962ff',}} src={gameJson.owner} roundedCircle /></div>
                                                         <div className="card-img" style={{
                                                             backgroundSize: "cover",
                                                             backgroundPosition: "center",
@@ -116,5 +125,6 @@ const Game = () => {
 
 
 };
+
 
 export default Game;

@@ -18,6 +18,9 @@ import {
 } from "reactstrap";
 import {GamesJson} from "../../static/GamesJson";
 import React from "react";
+
+import Image from 'react-bootstrap/Image';
+
 import {useNavigate} from "react-router";
 import {NavHashLink} from "react-router-hash-link";
 import queryString from 'query-string'
@@ -152,6 +155,11 @@ const Games = () => {
                                             color: "#ffffff",
                                             backgroundColor: "#3db13d"
                                         }}>дополнение</span> : ""}</div>
+                                              <div style={{
+                                                            position: 'absolute',
+                                                            top: '-15px',
+                                                            right: '-15px',
+                                                        }}> <Image style={{border: '3px solid  #2962ff',}} src={nt.owner} roundedCircle /></div>
                                         <div name={nt.title[0]} id={nt.title[0]} className="card-img" style={{
                                             backgroundSize: "cover",
                                             backgroundPosition: "center",

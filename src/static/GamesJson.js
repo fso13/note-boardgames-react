@@ -8,7 +8,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 4,
     isExtension: false,
-    time: "90 - 120 мин"
+    time: "90 - 120 мин",
+    owner: "https://sun9-76.userapi.com/s/v1/ig2/uuZgRu_4VjQX8IoyDsM8P6HQKQHgsKFcTzh29EWIjsn7l8U_Zr5PovHnB1comuteAzViW8EQCHC_91E6VHMVxmmQ.jpg?quality=95&crop=392,153,1718,1718&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440&ava=1&u=gPeI_wZaCUzLGm2toyzH-NjPNCTMN3WfhqYTaUxAEck&cs=50x50",
   },
   {
     id: 15919,
@@ -20,7 +21,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 6,
     isExtension: false,
-    time: "20 - 60 мин"
+    time: "20 - 60 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 3025,
@@ -32,7 +34,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 5,
     isExtension: false,
-    time: "60 - 120 мин"
+    time: "60 - 120 мин",
+    owner: "https://sun9-76.userapi.com/s/v1/ig2/4b9kiLueBckv2gyJph4kHpTmJnzuZJxmEZ8YbLmad4F5TZx6dmjtlJwIqwCmnUgKdX_rx9thW33cSIKMhF4MEYXz.jpg?quality=95&crop=9,488,1010,1010&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=UDKiFSMPEaJBcDvZ2B0vebnkczcEDVmYiIKoRowNFPw&cs=50x50",
   },
   {
     id: 497,
@@ -44,7 +47,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 5,
     isExtension: false,
-    time: "45 - 60 мин"
+    time: "45 - 60 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 984,
@@ -56,7 +60,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 5,
     isExtension: false,
-    time: "45 - 60 мин"
+    time: "45 - 60 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 203416,
@@ -68,7 +73,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 6,
     isExtension: false,
-    time: "45 - 90 мин"
+    time: "45 - 90 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 13357,
@@ -80,7 +86,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 6,
     isExtension: false,
-    time: "45 - 90 мин"
+    time: "45 - 90 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 40690,
@@ -91,7 +98,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 8,
     isExtension: false,
-    time: "до 10 мин"
+    time: "до 10 мин",
+    owner: "https://sun9-76.userapi.com/s/v1/ig2/4b9kiLueBckv2gyJph4kHpTmJnzuZJxmEZ8YbLmad4F5TZx6dmjtlJwIqwCmnUgKdX_rx9thW33cSIKMhF4MEYXz.jpg?quality=95&crop=9,488,1010,1010&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=UDKiFSMPEaJBcDvZ2B0vebnkczcEDVmYiIKoRowNFPw&cs=50x50",
   },
   {
     id: 41822,
@@ -102,7 +110,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 8,
     isExtension: false,
-    time: "до 10 мин"
+    time: "до 10 мин",
+    owner: "https://sun9-76.userapi.com/s/v1/ig2/4b9kiLueBckv2gyJph4kHpTmJnzuZJxmEZ8YbLmad4F5TZx6dmjtlJwIqwCmnUgKdX_rx9thW33cSIKMhF4MEYXz.jpg?quality=95&crop=9,488,1010,1010&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=UDKiFSMPEaJBcDvZ2B0vebnkczcEDVmYiIKoRowNFPw&cs=50x50",
   },
   {
     id: 40418,
@@ -114,7 +123,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 8,
     isExtension: false,
-    time: "до 10 мин"
+    time: "до 10 мин",
+    owner: "https://sun9-76.userapi.com/s/v1/ig2/4b9kiLueBckv2gyJph4kHpTmJnzuZJxmEZ8YbLmad4F5TZx6dmjtlJwIqwCmnUgKdX_rx9thW33cSIKMhF4MEYXz.jpg?quality=95&crop=9,488,1010,1010&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=UDKiFSMPEaJBcDvZ2B0vebnkczcEDVmYiIKoRowNFPw&cs=50x50",
   },
   {
     id: 119,
@@ -127,7 +137,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 5,
     isExtension: false,
-    time: "40 - 60 мин"
+    time: "40 - 60 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 6068,
@@ -138,7 +149,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 4,
     isExtension: false,
-    time: "45 - 90 мин"
+    time: "45 - 90 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 6553636,
@@ -149,7 +161,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 6,
     isExtension: false,
-    time: "60 мин"
+    time: "60 мин",
+    owner: "https://sun9-76.userapi.com/s/v1/ig2/4b9kiLueBckv2gyJph4kHpTmJnzuZJxmEZ8YbLmad4F5TZx6dmjtlJwIqwCmnUgKdX_rx9thW33cSIKMhF4MEYXz.jpg?quality=95&crop=9,488,1010,1010&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=UDKiFSMPEaJBcDvZ2B0vebnkczcEDVmYiIKoRowNFPw&cs=50x50",
   },
   {
     id: 7624,
@@ -161,7 +174,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 4,
     isExtension: false,
-    time: "60 - 120 мин"
+    time: "60 - 120 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 307534,
@@ -173,7 +187,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 5,
     isExtension: false,
-    time: "от 30 мин"
+    time: "от 30 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 375564,
@@ -185,7 +200,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 5,
     isExtension: true,
-    time: "от 30 мин"
+    time: "от 30 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 4912,
@@ -197,7 +213,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 4,
     isExtension: false,
-    time: "20 - 45 мин"
+    time: "20 - 45 мин",
+    owner: "https://sun9-76.userapi.com/s/v1/ig2/4b9kiLueBckv2gyJph4kHpTmJnzuZJxmEZ8YbLmad4F5TZx6dmjtlJwIqwCmnUgKdX_rx9thW33cSIKMhF4MEYXz.jpg?quality=95&crop=9,488,1010,1010&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=UDKiFSMPEaJBcDvZ2B0vebnkczcEDVmYiIKoRowNFPw&cs=50x50",
   },
   {
     id: 6893,
@@ -209,7 +226,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 4,
     isExtension: true,
-    time: "20 - 45 мин"
+    time: "20 - 45 мин",
+    owner: "https://sun9-76.userapi.com/s/v1/ig2/4b9kiLueBckv2gyJph4kHpTmJnzuZJxmEZ8YbLmad4F5TZx6dmjtlJwIqwCmnUgKdX_rx9thW33cSIKMhF4MEYXz.jpg?quality=95&crop=9,488,1010,1010&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=UDKiFSMPEaJBcDvZ2B0vebnkczcEDVmYiIKoRowNFPw&cs=50x50",
   },
   {
     id: 35953,
@@ -222,7 +240,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 8,
     isExtension: false,
-    time: "25 - 40 мин"
+    time: "25 - 40 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 10238,
@@ -234,7 +253,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 6,
     isExtension: false,
-    time: "15 - 30 мин"
+    time: "15 - 30 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 65244,
@@ -247,7 +267,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 4,
     isExtension: false,
-    time: "30 - 40 мин"
+    time: "30 - 40 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 33631,
@@ -260,7 +281,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 4,
     isExtension: false,
-    time: "120 - 180 мин"
+    time: "120 - 180 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 48,
@@ -273,7 +295,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 5,
     isExtension: false,
-    time: "40 мин"
+    time: "40 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 39891,
@@ -285,7 +308,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 10,
     isExtension: false,
-    time: "30 - 45 мин"
+    time: "30 - 45 мин",
+    owner: "https://sun9-76.userapi.com/s/v1/ig2/4b9kiLueBckv2gyJph4kHpTmJnzuZJxmEZ8YbLmad4F5TZx6dmjtlJwIqwCmnUgKdX_rx9thW33cSIKMhF4MEYXz.jpg?quality=95&crop=9,488,1010,1010&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=UDKiFSMPEaJBcDvZ2B0vebnkczcEDVmYiIKoRowNFPw&cs=50x50",
   },
   {
     id: 218311,
@@ -298,7 +322,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 6,
     isExtension: false,
-    time: "60 - 70 мин"
+    time: "60 - 70 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 2188,
@@ -311,7 +336,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 4,
     isExtension: false,
-    time: "30 - 60 мин"
+    time: "30 - 60 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 405,
@@ -323,7 +349,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 5,
     isExtension: false,
-    time: "60 - 90 мин"
+    time: "60 - 90 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 2617,
@@ -335,7 +362,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 5,
     isExtension: true,
-    time: "60 - 90 мин"
+    time: "60 - 90 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 10741,
@@ -347,7 +375,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 5,
     isExtension: true,
-    time: "60 - 90 мин"
+    time: "60 - 90 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 6796,
@@ -359,7 +388,8 @@ export const GamesJson = [
     playersMin: 3,
     playersMax: 6,
     isExtension: true,
-    time: "60 - 90 мин"
+    time: "60 - 90 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 293547,
@@ -371,7 +401,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 4,
     isExtension: false,
-    time: "60 мин"
+    time: "60 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 191189,
@@ -383,7 +414,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 4,
     isExtension: false,
-    time: "60 - 120 мин"
+    time: "60 - 120 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 237182,
@@ -410,7 +442,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 4,
     isExtension: false,
-    time: "60 - 90 мин"
+    time: "60 - 90 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 272637,
@@ -435,7 +468,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 6,
     isExtension: true,
-    time: "60 - 90 мин"
+    time: "60 - 90 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 241386,
@@ -458,7 +492,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 6,
     isExtension: true,
-    time: "60 - 90 мин"
+    time: "60 - 90 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 35434,
@@ -470,7 +505,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 4,
     isExtension: false,
-    time: "30 - 45 мин"
+    time: "30 - 45 мин",
+    owner: "https://sun9-76.userapi.com/s/v1/ig2/4b9kiLueBckv2gyJph4kHpTmJnzuZJxmEZ8YbLmad4F5TZx6dmjtlJwIqwCmnUgKdX_rx9thW33cSIKMhF4MEYXz.jpg?quality=95&crop=9,488,1010,1010&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=UDKiFSMPEaJBcDvZ2B0vebnkczcEDVmYiIKoRowNFPw&cs=50x50",
   },
   {
     id: 31577,
@@ -482,7 +518,8 @@ export const GamesJson = [
     playersMin: 3,
     playersMax: 5,
     isExtension: false,
-    time: "30 - 50 мин"
+    time: "30 - 50 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 203719,
@@ -494,7 +531,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 4,
     isExtension: false,
-    time: "45 - 60 мин"
+    time: "45 - 60 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 32673,
@@ -506,7 +544,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 5,
     isExtension: false,
-    time: "40 - 90 мин"
+    time: "40 - 90 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 253344,
@@ -519,7 +558,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 5,
     isExtension: false,
-    time: "90 - 120 мин"
+    time: "90 - 120 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 9915,
@@ -532,7 +572,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 4,
     isExtension: false,
-    time: "30 - 60 мин"
+    time: "30 - 60 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 332386,
@@ -544,7 +585,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 4,
     isExtension: false,
-    time: "45 - 90 мин"
+    time: "45 - 90 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 13340,
@@ -556,7 +598,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 6,
     isExtension: false,
-    time: "45 - 90 мин"
+    time: "45 - 90 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 51,
@@ -569,7 +612,8 @@ export const GamesJson = [
     playersMin: 3,
     playersMax: 6,
     isExtension: false,
-    time: "30 - 60 мин"
+    time: "30 - 60 мин",
+    owner: "https://sun9-62.userapi.com/s/v1/if1/vamOiseBX4ut2qF-ogWOmePSNOc_4Nzz2MZTZGGrCEfCS398AjNWEeHIJtkpAIYZ_GxG_w.jpg?quality=96&crop=170,50,685,685&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&u=e-80WBYNr8GUK5_i2urpfsKb1dzgUQ7J_v1NouM6qvk&cs=50x50",
   },
   {
     id: 909,
@@ -581,7 +625,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 6,
     isExtension: true,
-    time: "30 - 60 мин"
+    time: "30 - 60 мин",
+    owner: "https://sun9-62.userapi.com/s/v1/if1/vamOiseBX4ut2qF-ogWOmePSNOc_4Nzz2MZTZGGrCEfCS398AjNWEeHIJtkpAIYZ_GxG_w.jpg?quality=96&crop=170,50,685,685&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&u=e-80WBYNr8GUK5_i2urpfsKb1dzgUQ7J_v1NouM6qvk&cs=50x50",
   },
   {
     id: 912,
@@ -593,7 +638,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 6,
     isExtension: true,
-    time: "30 - 60 мин"
+    time: "30 - 60 мин",
+    owner: "https://sun9-62.userapi.com/s/v1/if1/vamOiseBX4ut2qF-ogWOmePSNOc_4Nzz2MZTZGGrCEfCS398AjNWEeHIJtkpAIYZ_GxG_w.jpg?quality=96&crop=170,50,685,685&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&u=e-80WBYNr8GUK5_i2urpfsKb1dzgUQ7J_v1NouM6qvk&cs=50x50",
   },
   {
     id: 919,
@@ -605,7 +651,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 6,
     isExtension: true,
-    time: "30 - 60 мин"
+    time: "30 - 60 мин",
+    owner: "https://sun9-62.userapi.com/s/v1/if1/vamOiseBX4ut2qF-ogWOmePSNOc_4Nzz2MZTZGGrCEfCS398AjNWEeHIJtkpAIYZ_GxG_w.jpg?quality=96&crop=170,50,685,685&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&u=e-80WBYNr8GUK5_i2urpfsKb1dzgUQ7J_v1NouM6qvk&cs=50x50",
   },
   {
     id: 4161,
@@ -617,7 +664,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 6,
     isExtension: true,
-    time: "30 - 60 мин"
+    time: "30 - 60 мин",
+    owner: "https://sun9-62.userapi.com/s/v1/if1/vamOiseBX4ut2qF-ogWOmePSNOc_4Nzz2MZTZGGrCEfCS398AjNWEeHIJtkpAIYZ_GxG_w.jpg?quality=96&crop=170,50,685,685&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&u=e-80WBYNr8GUK5_i2urpfsKb1dzgUQ7J_v1NouM6qvk&cs=50x50",
   },
   {
     id: 33520,
@@ -629,7 +677,8 @@ export const GamesJson = [
     playersMin: 4,
     playersMax: 6,
     isExtension: true,
-    time: "30 - 60 мин"
+    time: "30 - 60 мин",
+    owner: "https://sun9-62.userapi.com/s/v1/if1/vamOiseBX4ut2qF-ogWOmePSNOc_4Nzz2MZTZGGrCEfCS398AjNWEeHIJtkpAIYZ_GxG_w.jpg?quality=96&crop=170,50,685,685&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&u=e-80WBYNr8GUK5_i2urpfsKb1dzgUQ7J_v1NouM6qvk&cs=50x50",
   },
   {
     id: 9585,
@@ -641,7 +690,8 @@ export const GamesJson = [
     playersMin: 3,
     playersMax: 6,
     isExtension: true,
-    time: "30 - 60 мин"
+    time: "30 - 60 мин",
+    owner: "https://sun9-62.userapi.com/s/v1/if1/vamOiseBX4ut2qF-ogWOmePSNOc_4Nzz2MZTZGGrCEfCS398AjNWEeHIJtkpAIYZ_GxG_w.jpg?quality=96&crop=170,50,685,685&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&u=e-80WBYNr8GUK5_i2urpfsKb1dzgUQ7J_v1NouM6qvk&cs=50x50",
   },
   {
     id: 219513,
@@ -653,7 +703,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 4,
     isExtension: false,
-    time: "30 - 45 мин"
+    time: "30 - 45 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 9068,
@@ -665,7 +716,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 4,
     isExtension: false,
-    time: "20 - 45 мин"
+    time: "20 - 45 мин",
+    owner: "https://sun9-62.userapi.com/s/v1/if1/vamOiseBX4ut2qF-ogWOmePSNOc_4Nzz2MZTZGGrCEfCS398AjNWEeHIJtkpAIYZ_GxG_w.jpg?quality=96&crop=170,50,685,685&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640&ava=1&u=e-80WBYNr8GUK5_i2urpfsKb1dzgUQ7J_v1NouM6qvk&cs=50x50",
   },
   {
     id: 6967,
@@ -677,7 +729,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 4,
     isExtension: false,
-    time: "30 - 50 мин"
+    time: "30 - 50 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 340466,
@@ -695,7 +748,8 @@ export const GamesJson = [
     playersMin: 3,
     playersMax: 6,
     isExtension: false,
-    time: "120 - 240 мин"
+    time: "120 - 240 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 234190,
@@ -708,7 +762,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 8,
     isExtension: false,
-    time: "30 - 60 мин"
+    time: "30 - 60 мин",
+    owner: "https://sun9-76.userapi.com/s/v1/ig2/4b9kiLueBckv2gyJph4kHpTmJnzuZJxmEZ8YbLmad4F5TZx6dmjtlJwIqwCmnUgKdX_rx9thW33cSIKMhF4MEYXz.jpg?quality=95&crop=9,488,1010,1010&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=UDKiFSMPEaJBcDvZ2B0vebnkczcEDVmYiIKoRowNFPw&cs=50x50",
   },
   {
     id: 11393,
@@ -720,7 +775,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 5,
     isExtension: false,
-    time: "120 - 180 мин"
+    time: "120 - 180 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 30263,
@@ -732,7 +788,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 5,
     isExtension: true,
-    time: "120 - 180 мин"
+    time: "120 - 180 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 34634,
@@ -744,7 +801,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 5,
     isExtension: true,
-    time: "120 - 180 мин"
+    time: "120 - 180 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 16746,
@@ -757,7 +815,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 5,
     isExtension: true,
-    time: "120 - 180 мин"
+    time: "120 - 180 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 36498,
@@ -769,7 +828,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 5,
     isExtension: true,
-    time: "120 - 180 мин"
+    time: "120 - 180 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 13998,
@@ -781,7 +841,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 5,
     isExtension: true,
-    time: "120 - 180 мин"
+    time: "120 - 180 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 162886,
@@ -794,7 +855,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 4,
     isExtension: false,
-    time: "90 - 180 мин"
+    time: "90 - 180 мин",
+    owner: "https://sun9-76.userapi.com/s/v1/ig2/4b9kiLueBckv2gyJph4kHpTmJnzuZJxmEZ8YbLmad4F5TZx6dmjtlJwIqwCmnUgKdX_rx9thW33cSIKMhF4MEYXz.jpg?quality=95&crop=9,488,1010,1010&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=UDKiFSMPEaJBcDvZ2B0vebnkczcEDVmYiIKoRowNFPw&cs=50x50",
   },
   {
     id: 368413,
@@ -807,7 +869,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 4,
     isExtension: false,
-    time: "50 мин"
+    time: "50 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 8401,
@@ -819,7 +882,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 5,
     isExtension: false,
-    time: "120 - 180 мин"
+    time: "120 - 180 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 6878,
@@ -831,7 +895,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 4,
     isExtension: false,
-    time: "20 - 80 мин"
+    time: "20 - 80 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 35450,
@@ -843,7 +908,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 5,
     isExtension: false,
-    time: "45 мин"
+    time: "45 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 8016,
@@ -855,7 +921,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 5,
     isExtension: false,
-    time: "90 - 160 мин"
+    time: "90 - 160 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 15381,
@@ -867,7 +934,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 7,
     isExtension: true,
-    time: "90 - 160 мин"
+    time: "90 - 160 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 11055,
@@ -879,7 +947,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 7,
     isExtension: true,
-    time: "90 - 160 мин"
+    time: "90 - 160 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 126100,
@@ -891,7 +960,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 8,
     isExtension: false,
-    time: "120 мин"
+    time: "120 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 217424,
@@ -903,7 +973,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 7,
     isExtension: false,
-    time: "30 мин"
+    time: "30 мин",
+    owner: "https://sun9-76.userapi.com/s/v1/ig2/4b9kiLueBckv2gyJph4kHpTmJnzuZJxmEZ8YbLmad4F5TZx6dmjtlJwIqwCmnUgKdX_rx9thW33cSIKMhF4MEYXz.jpg?quality=95&crop=9,488,1010,1010&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=UDKiFSMPEaJBcDvZ2B0vebnkczcEDVmYiIKoRowNFPw&cs=50x50",
   },
   {
     id: 4296,
@@ -915,7 +986,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 2,
     isExtension: false,
-    time: "10 - 20 мин"
+    time: "10 - 20 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 243759,
@@ -951,7 +1023,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 4,
     isExtension: false,
-    time: "60 - 90 мин"
+    time: "60 - 90 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 36951,
@@ -963,7 +1036,8 @@ export const GamesJson = [
     playersMin: 1,
     playersMax: 5,
     isExtension: false,
-    time: "20 - 40 мин"
+    time: "20 - 40 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 37449,
@@ -975,7 +1049,8 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 4,
     isExtension: false,
-    time: "30 - 40 мин"
+    time: "30 - 40 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
     id: 271519,
@@ -987,6 +1062,7 @@ export const GamesJson = [
     playersMin: 2,
     playersMax: 6,
     isExtension: false,
-    time: "15 - 20 мин"
+    time: "15 - 20 мин",
+    owner: "https://sun9-76.userapi.com/s/v1/ig2/4b9kiLueBckv2gyJph4kHpTmJnzuZJxmEZ8YbLmad4F5TZx6dmjtlJwIqwCmnUgKdX_rx9thW33cSIKMhF4MEYXz.jpg?quality=95&crop=9,488,1010,1010&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720&ava=1&u=UDKiFSMPEaJBcDvZ2B0vebnkczcEDVmYiIKoRowNFPw&cs=50x50",
   }
 ]
