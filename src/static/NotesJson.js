@@ -1,5 +1,29 @@
 export const NotesJson = [
     {
+        "id": 161,
+        "title": "26.07.2024",
+        "content": `По мне так анматчед в формате PnP вполне годный, надо героев только больше подготовить. 4к за него платить конечно перебор. Ну ,а Подземелья вспомнил о чем, и тоже как филер сойдет, надо как-нибудь колоду с сложным уровнем всё таки раскрыть...`,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Unmatched: Туман над мостовой"
+            },
+            {
+                "count": 1,
+                "title": "Подземелье. Гробница повелителя мёртвых"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/161/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/161/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/161/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/161/4.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/161/5.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/161/6.jpg",
+        ]
+    },
+    {
         "id": 160,
         "title": "12.07.2024",
         "content": `Новинка - Ктулху: Смерть может умереть. Экшен, экшен и еще раз экшен. Слишком долго топлатись у входа, из за этого Ктулху успелш очень рано появиться. Половину хп снесли, но следующим ходом сыщики обезумили.`,
