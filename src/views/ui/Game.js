@@ -72,16 +72,16 @@ const Game = () => {
                                                             backgroundColor: "#3db13d"
                                                         }}>дополнение</span> : ""}</div>
                                                         <div style={{
-                                                             
                                                             position: 'absolute',
                                                             top: '-15px',
                                                             right: '-15px',
-                                                        }}> <Image style={{border: '3px solid  #2962ff',}} src={gameJson.owner} roundedCircle /></div>
-                                                        <div className="card-img" style={{
-                                                            backgroundSize: "cover",
-                                                            backgroundPosition: "center",
+                                                        }}> <Image style={{border: '3px solid  #2962ff'}} src={gameJson.owner} roundedCircle /></div>
+                                                        <div  style={{
+                                                            backgroundSize: "contain",
+                                                            backgroundRepeat: "no-repeat",
+                                                            backgroundPosition: "center top",
                                                             paddingBottom: "100%",
-                                                            width: "100%",
+                                                            height: "100%",
                                                             backgroundImage: `url(${src})`
                                                         }}>
                                                         </div>
