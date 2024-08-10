@@ -1,5 +1,36 @@
 export const NotesJson = [
     {
+        "id": 162,
+        "title": "09.08.2024",
+        "content": `Давно не было Серпа, тем более приехал доп с дирежаблями. Поляки, используя свои способности для приключений, очень быстро прокачались. И даже с 5 звездами выиграли. </br></br>
+        Дальше вспомнили про Миры Ктулху. Очень непривычные значки(по сравнению с Звездными Империями), но пару партий потренироваться и будет норм. </br></br>
+        Каркасон. Сто лет не доставали(реально, коробка пылью покрылас). Битва шла за поля. `,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Серп"
+            },
+            {
+                "count": 1,
+                "title": "Миры Ктулху"
+            },
+            {
+                "count": 1,
+                "title": "Каркасон"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/162/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/162/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/162/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/162/4.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/162/5.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/162/6.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/162/7.jpg",
+        ]
+    },
+    {
         "id": 161,
         "title": "26.07.2024",
         "content": `По мне так анматчед в формате PnP вполне годный, надо героев только больше подготовить. 4к за него платить конечно перебор. Ну ,а Подземелья вспомнил о чем, и тоже как филер сойдет, надо как-нибудь колоду с сложным уровнем всё таки раскрыть...`,
