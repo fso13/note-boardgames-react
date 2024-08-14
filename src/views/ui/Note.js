@@ -8,6 +8,8 @@ const Note = () => {
 
     let {id} = useParams();
 
+    const currentURL = window.location.href;
+
     const noteJson = NotesJson.filter(function (item) {
         return item.id == id;
     })[0];
@@ -19,8 +21,8 @@ const Note = () => {
         <meta property="og:title" content={noteJson.title} />
         <meta property="og:image" content={noteJson.files[0]} />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={noteJson.files[0]} />
-        <meta property="og:url" content={useHref} />
+        <meta property="og:url" content={currentURL} />
+        <meta property="og:description" content={noteJson.content} />
     </Helmet>
         <div className="application">
    

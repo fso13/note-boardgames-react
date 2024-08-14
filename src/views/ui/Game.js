@@ -18,7 +18,7 @@ import {useParams} from "react-router";
 const Game = () => {
 
     let {id} = useParams();
-
+    const currentURL = window.location.href;
     const gameJsons = GamesJson.filter(function (item) {
         return item.id == id || item.title.includes(id);
     });
@@ -37,6 +37,17 @@ const Game = () => {
 
 
     return (
+
+        <>
+                <Helmet>
+        <meta charSet="utf-8" />
+        <meta property="og:title" content={gameJson.title} />
+        <meta property="og:image" content={src} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={currentURL} />
+        <meta property="og:description" content={gameJson.description} />
+    </Helmet>
+
         <div>
             {gameJson != null ? (
                 <div>
@@ -120,7 +131,7 @@ const Game = () => {
                 </Col>
             </Row>)}
         </div>
-
+        </>
     );
 
 
