@@ -14,6 +14,7 @@ import Image from 'react-bootstrap/Image';
 import React from "react";
 import {GamesJson} from "../../static/GamesJson";
 import {useParams} from "react-router";
+import {Helmet} from "react-helmet";
 
 const Game = () => {
 
