@@ -13,15 +13,17 @@ const Note = () => {
     })[0];
 
     return (
+        <>
+        <Helmet>
+        <meta charSet="utf-8" />
+        <meta property="og:title" content={noteJson.title} />
+        <meta property="og:image" content={noteJson.files[0]} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={noteJson.files[0]} />
+        <meta property="og:url" content={useHref} />
+    </Helmet>
         <div className="application">
-            <Helmet>
-                <meta charSet="utf-8" />
-                <meta property="og:title" content={noteJson.title} />
-                <meta property="og:image" content={noteJson.files[0]} />
-                <meta property="og:type" content="website" />
-                <meta property="og:image" content={noteJson.files[0]} />
-                <meta property="og:url" content={useHref} />
-            </Helmet>
+   
             <Row>
                 <Col xs="auto"
                      md={{
@@ -87,6 +89,7 @@ const Note = () => {
 
             </Row>
         </div>
+        </>
     );
 };
 
