@@ -1,7 +1,7 @@
 import {Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Row, UncontrolledCarousel,} from "reactstrap";
 import React from "react";
 import {NotesJson} from "../../static/NotesJson";
-import {useLocation, useParams} from "react-router";
+import {useHref, useParams} from "react-router";
 import {Helmet} from "react-helmet";
 
 const Note = () => {
@@ -16,15 +16,11 @@ const Note = () => {
         <div className="application">
             <Helmet>
                 <meta charSet="utf-8" />
-                <meta property="og:type" content="website"></meta>
-                <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-                <meta name="description" content={noteJson.content} />
-                <meta name="og:description" content={noteJson.content} />
-                <meta property="og:description" content={noteJson.content} />
                 <meta property="og:title" content={noteJson.title} />
-                <meta property="vk:image" content={noteJson.files[0]} />
                 <meta property="og:image" content={noteJson.files[0]} />
-                <meta property="og:image:alt" content={noteJson.content} />
+                <meta property="og:type" content="website" />
+                <meta property="og:image" content={noteJson.files[0]} />
+                <meta property="og:url" content={useHref} />
             </Helmet>
             <Row>
                 <Col xs="auto"
