@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/note-boardgames-react/static/css/main.307b9602.css",
-    "main.js": "/note-boardgames-react/static/js/main.fe8d024d.js",
+    "main.js": "/note-boardgames-react/static/js/main.2f676962.js",
     "static/js/870.6eaf1a42.chunk.js": "/note-boardgames-react/static/js/870.6eaf1a42.chunk.js",
     "static/css/418.15bb8644.chunk.css": "/note-boardgames-react/static/css/418.15bb8644.chunk.css",
     "static/js/418.198af872.chunk.js": "/note-boardgames-react/static/js/418.198af872.chunk.js",
-    "static/js/830.de0556af.chunk.js": "/note-boardgames-react/static/js/830.de0556af.chunk.js",
+    "static/js/830.140985e1.chunk.js": "/note-boardgames-react/static/js/830.140985e1.chunk.js",
     "static/js/386.95723b87.chunk.js": "/note-boardgames-react/static/js/386.95723b87.chunk.js",
     "static/js/443.34946f2b.chunk.js": "/note-boardgames-react/static/js/443.34946f2b.chunk.js",
     "static/js/716.13f676e4.chunk.js": "/note-boardgames-react/static/js/716.13f676e4.chunk.js",
@@ -105,11 +105,11 @@
     "static/media/11055.jpg": "/note-boardgames-react/static/media/11055.c7fedca8321bacfe8856.jpg",
     "index.html": "/note-boardgames-react/index.html",
     "main.307b9602.css.map": "/note-boardgames-react/static/css/main.307b9602.css.map",
-    "main.fe8d024d.js.map": "/note-boardgames-react/static/js/main.fe8d024d.js.map",
+    "main.2f676962.js.map": "/note-boardgames-react/static/js/main.2f676962.js.map",
     "870.6eaf1a42.chunk.js.map": "/note-boardgames-react/static/js/870.6eaf1a42.chunk.js.map",
     "418.15bb8644.chunk.css.map": "/note-boardgames-react/static/css/418.15bb8644.chunk.css.map",
     "418.198af872.chunk.js.map": "/note-boardgames-react/static/js/418.198af872.chunk.js.map",
-    "830.de0556af.chunk.js.map": "/note-boardgames-react/static/js/830.de0556af.chunk.js.map",
+    "830.140985e1.chunk.js.map": "/note-boardgames-react/static/js/830.140985e1.chunk.js.map",
     "386.95723b87.chunk.js.map": "/note-boardgames-react/static/js/386.95723b87.chunk.js.map",
     "443.34946f2b.chunk.js.map": "/note-boardgames-react/static/js/443.34946f2b.chunk.js.map",
     "716.13f676e4.chunk.js.map": "/note-boardgames-react/static/js/716.13f676e4.chunk.js.map",
@@ -126,6 +126,6 @@
   },
   "entrypoints": [
     "static/css/main.307b9602.css",
-    "static/js/main.fe8d024d.js"
+    "static/js/main.2f676962.js"
   ]
 }
