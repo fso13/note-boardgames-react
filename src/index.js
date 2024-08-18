@@ -9,7 +9,7 @@ import Loader from "./layouts/loader/Loader";
 
 ReactDOM.render(
     <Suspense fallback={<Loader/>}>
-        <BrowserRouter future={{ v7_startTransition: true }}>
+        <BrowserRouter basename='/note-boardgames-react/' future={{ v7_startTransition: true }}>
             <App/>
         </BrowserRouter>
     </Suspense>,
