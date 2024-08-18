@@ -3,15 +3,15 @@ import ReactDOM from "react-dom";
 import "./assets/scss/style.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 import Loader from "./layouts/loader/Loader";
 
 
 ReactDOM.render(
     <Suspense fallback={<Loader/>}>
-        <BrowserRouter basename="/note-boardgames-react">
+        <HashRouter>
             <App/>
-        </BrowserRouter>
+        </HashRouter>
     </Suspense>,
 
     document.getElementById("root")
