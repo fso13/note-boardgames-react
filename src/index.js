@@ -9,7 +9,7 @@ import Loader from "./layouts/loader/Loader";
 
 ReactDOM.render(
     <Suspense fallback={<Loader/>}>
-        <HashRouter>
+        <HashRouter hashType="noslash"> 
             <App/>
         </HashRouter>
     </Suspense>,

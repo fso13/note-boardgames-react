@@ -41,7 +41,7 @@ const Notes = () => {
                                     {
                                         nt.tags.map((tag) => {
                                             return (<div><a
-                                                href={`/#/games/${tag.title}`}>{tag.title + '(' + tag.count + ')'}</a>
+                                                href={`#/games/${tag.title}`}>{tag.title + '(' + tag.count + ')'}</a>
                                             </div>)
                                         })
                                     }
