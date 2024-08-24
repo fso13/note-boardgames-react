@@ -19,7 +19,7 @@ export const NotesJson = [
             {
                 "count": 1,
                 "title": "Наместник"
-            }
+            },
             {
                 "count": 1,
                 "title": "Кворриорс"
