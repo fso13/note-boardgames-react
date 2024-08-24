@@ -1,5 +1,37 @@
 export const NotesJson = [
     {
+        "id": 163,
+        "title": "23.08.2024",
+        "content": `Вечер дуэли. Сначала дракана на арене. Где ближники зажали и отпинали в углу моих кросмастеров.</br></br>
+        Далее строили пирамиды в Наместнике. </br></br>
+        Потом дрались в чаще леса Кворриорс.</br></br>
+        И шлифанули мирами Ктулху.`,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Кросмастер Арена 2.0"
+            },
+            {
+                "count": 1,
+                "title": "Миры Ктулху"
+            },
+            {
+                "count": 1,
+                "title": "Наместник"
+            }
+            {
+                "count": 1,
+                "title": "Кворриорс"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/163/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/163/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/163/3.jpg",
+        ]
+    },
+    {
         "id": 162,
         "title": "09.08.2024",
         "content": `Давно не было Серпа, тем более приехал доп с дирежаблями. Поляки, используя свои способности для приключений, очень быстро прокачались. И даже с 5 звездами выиграли. </br></br>
