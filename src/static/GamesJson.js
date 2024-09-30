@@ -298,7 +298,7 @@ export const GamesJson = [
     owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
-    id: 0,
+    id: -2,
     title: "Герои",
     title2: "Герои",
     title3: "Герои",
