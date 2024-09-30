@@ -1,5 +1,27 @@
 export const NotesJson = [
     {
+        "id": 164,
+        "title": "13.09.2024",
+        "content": `Уговорил поиграть в ЗВ. До середины игры были все с одинаковой славой. Но, после выполнения одного задания, выполнил задание героя и корабля. Ну и поехало.</br></br>
+        В Босс-монстр пришлось перечитывать правила, давно не играли.`,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Звёздные Войны: Внешнее кольцо"
+            },
+            {
+                "count": 1,
+                "title": "Босс-Монстр"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/164/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/164/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/164/3.jpg",
+        ]
+    },
+    {
         "id": 163,
         "title": "23.08.2024",
         "content": `Вечер дуэли. Сначала дракана на арене. Где ближники зажали и отпинали в углу моих кросмастеров.</br></br>
