@@ -1,5 +1,26 @@
 export const NotesJson = [
     {
+        "id": 165,
+        "title": "04.10.2024",
+        "content": `Новинка - Герои. Выбираешь расу(люди, орки, нежить, наги, гномы, эльфы), ходишь по землям, бьешь монстров и захватываешь крепости. Пытаешься отыскать артефакты.</br></br>
+        Борьба за поля все порешала).`,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Герои"
+            },
+            {
+                "count": 2,
+                "title": "Каркассон"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/165/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/165/2.jpg",
+        ]
+    },
+    {
         "id": 164,
         "title": "13.09.2024",
         "content": `Уговорил поиграть в ЗВ. До середины игры были все с одинаковой славой. Но, после выполнения одного задания, выполнил задание героя и корабля. Ну и поехало.</br></br>
