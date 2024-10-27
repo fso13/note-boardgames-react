@@ -1,5 +1,27 @@
 export const NotesJson = [
     {
+        "id": 166,
+        "title": "25.10.2024",
+        "content": `Полчаса пытались выбрать и начать квест по Особнякам безумия. Какой то глюк в приложении, из за чего нам был доступно приключение без необходимых компонентов. Разобрались, начали играть, три час. Двое сыщиков сошли с ума. Не хватила одного хода до победы. </br></br>
+        Напоследок раскинули каркасон.`,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Особняки безумия"
+            },
+            {
+                "count": 1,
+                "title": "Каркассон"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/166/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/166/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/166/3.jpg",
+        ]
+    },
+    {
         "id": 165,
         "title": "04.10.2024",
         "content": `Новинка - Герои. Выбираешь расу(люди, орки, нежить, наги, гномы, эльфы), ходишь по землям, бьешь монстров и захватываешь крепости. Пытаешься отыскать артефакты.</br></br>
