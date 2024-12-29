@@ -25,6 +25,10 @@ export const NotesJson = [
             {
                 "count": 1,
                 "title": "Серп"
+            },
+            {
+                "count": 1,
+                "title": "EXIT-КВЕСТ. Убийство в восточном экспрессе"
             }
         ],
         "files": [
