@@ -1,5 +1,43 @@
 export const NotesJson = [
     {
+        "id": 168,
+        "title": "13.12.2024",
+        "content": `У местных героев есть традиция - каждый новы год они приезжают к своему другу эльфу, парятся и травят байки. В этот раз им помешали. На их глазах был похищен Санта. Быстрее вперед, нужно спасти рождество...`,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "D&D 5"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/168/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/168/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/168/3.jpg",
+        ]
+    },
+    {
+        "id": 167,
+        "title": "15.11.2024",
+        "content": ``,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Герои"
+            },
+            {
+                "count": 1,
+                "title": "Звёздные империи"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/167/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/167/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/167/3.jpg",
+        ]
+    },
+    {
         "id": 166,
         "title": "25.10.2024",
         "content": `Полчаса пытались выбрать и начать квест по Особнякам безумия. Какой то глюк в приложении, из за чего нам был доступно приключение без необходимых компонентов. Разобрались, начали играть, три час. Двое сыщиков сошли с ума. Не хватила одного хода до победы. </br></br>
