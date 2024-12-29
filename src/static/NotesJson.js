@@ -1,6 +1,6 @@
 export const NotesJson = [
     {
-        "id": 168,
+        "id": 169,
         "title": "13.12.2024",
         "content": `У местных героев есть традиция - каждый новы год они приезжают к своему другу эльфу, парятся и травят байки. В этот раз им помешали. На их глазах был похищен Санта. Быстрее вперед, нужно спасти рождество...`,
 
@@ -11,9 +11,24 @@ export const NotesJson = [
             }
         ],
         "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/169/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/169/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/169/3.jpg",
+        ]
+    },
+    {
+        "id": 168,
+        "title": "29.11.2024",
+        "content": ``,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Серп"
+            }
+        ],
+        "files": [
             "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/168/1.jpg",
-            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/168/2.jpg",
-            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/168/3.jpg",
         ]
     },
     {
