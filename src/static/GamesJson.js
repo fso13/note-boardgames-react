@@ -298,6 +298,27 @@ export const GamesJson = [
     owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
   },
   {
+    id: 377061,
+    title: "Время кофе",
+    title2: "Время кофе",
+    title3: "Время кофе",
+    alias: "Время кофе",
+    descriptionShort: ``,
+    description: `<div class="raw_text_output">
+                    <p>Чашка кофе, безусловно, расслабляет — клиента. Однако в кофейне заказы накапливаются в часы пик, и сегодня в Coffee Rush все по-прежнему. Ваша цель: выполняйте заказы клиентов, повышайте свой рейтинг и станьте лучшим бариста!</p>
+<p>&nbsp;</p>
+<p>Если говорить более подробно, каждый игрок перемещается по доске ингредиентов, чтобы собрать ингредиенты, необходимые для выполнения заказов, а выполнение заказов повышает ваш рейтинг. Невыполненные вовремя заказы становятся штрафами, которые вычитаются из вашего рейтинга. Если игрок выполнил три приказа, они могут активировать обновление, которое позволяет ему легче приобретать ингредиенты.</p>
+<p>&nbsp;</p>
+<p>Игра заканчивается, когда заканчиваются все карты заказов или после того, как бариста получает свою пятую штрафную карту. Побеждает игрок с самым высоким рейтингом!</p>
+<p>&nbsp;</p>
+                </div>`,
+    playersMin: 2,
+    playersMax: 4,
+    isExtension: false,
+    time: "30 мин",
+    owner: "https://sun9-2.userapi.com/s/v1/ig2/Xtt_IIeCiyrYNGI4WvEXKlUbbcqOgIMaor2zEO-n4XsRgnGcaUby1PE8r-in97eG_HgAUcVQG7EpyT_PHKAS5W-w.jpg?quality=95&crop=213,309,476,476&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=sOnJzCcPEG01UEq4dWPAQeTPlvjY-aHJqZa95SJmE9s&cs=50x50",
+  },
+  {
     id: -2,
     title: "Герои",
     title2: "Герои",

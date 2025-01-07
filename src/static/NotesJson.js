@@ -1,5 +1,45 @@
 export const NotesJson = [
     {
+        "id": 170,
+        "title": "06.01.2025",
+        "content": `Первая сессия после нового года, и первая новика - Время кофе. Евро филлер всем зашел, посмотрим в сторону допа.  </br></br>
+        Картографы - давно не рисовали. Люблю ролл райт игры. </br></br>
+        Наместник - первая игра которуюя купил, и жо сих пор не надоедает. </br></br>
+        Каркассон на закуску. Решили попробовать турнирные правила, иметь на руках по три тайла. Вроде неплохо.`,
+
+        "tags": [
+            {
+                "count": 2,
+                "title": "Время кофе"
+            },
+            {
+                "count": 1,
+                "title": "Картографы Герои"
+            },
+            {
+                "count": 1,
+                "title": "Наместник"
+            },
+            {
+                "count": 1,
+                "title": "Каркассон"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/170/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/170/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/170/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/170/4.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/170/5.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/170/6.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/170/7.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/170/8.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/170/9.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/170/10.jpg",
+
+        ]
+    },
+    {
         "id": 169,
         "title": "13.12.2024",
         "content": `У местных героев есть традиция - каждый новы год они приезжают к своему другу эльфу, парятся и травят байки. В этот раз им помешали. На их глазах был похищен Санта. Быстрее вперед, нужно спасти рождество...`,
