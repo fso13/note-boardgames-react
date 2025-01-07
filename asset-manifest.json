@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/note-boardgames-react/static/css/main.307b9602.css",
-    "main.js": "/note-boardgames-react/static/js/main.72d55128.js",
+    "main.js": "/note-boardgames-react/static/js/main.2f2a28ac.js",
     "static/js/870.6eaf1a42.chunk.js": "/note-boardgames-react/static/js/870.6eaf1a42.chunk.js",
     "static/css/418.15bb8644.chunk.css": "/note-boardgames-react/static/css/418.15bb8644.chunk.css",
     "static/js/418.198af872.chunk.js": "/note-boardgames-react/static/js/418.198af872.chunk.js",
@@ -18,8 +18,8 @@
     "static/js/77.f3d40424.chunk.js": "/note-boardgames-react/static/js/77.f3d40424.chunk.js",
     "static/js/671.1119accc.chunk.js": "/note-boardgames-react/static/js/671.1119accc.chunk.js",
     "static/js/465.0d50bac5.chunk.js": "/note-boardgames-react/static/js/465.0d50bac5.chunk.js",
-    "static/js/309.07ad19dd.chunk.js": "/note-boardgames-react/static/js/309.07ad19dd.chunk.js",
-    "static/js/393.5819f3d5.chunk.js": "/note-boardgames-react/static/js/393.5819f3d5.chunk.js",
+    "static/js/309.0798f29b.chunk.js": "/note-boardgames-react/static/js/309.0798f29b.chunk.js",
+    "static/js/393.0edfeb68.chunk.js": "/note-boardgames-react/static/js/393.0edfeb68.chunk.js",
     "static/media/6553636.jpg": "/note-boardgames-react/static/media/6553636.6e108a7fc2680826d46b.jpg",
     "static/media/33520.jpg": "/note-boardgames-react/static/media/33520.ff25ce18c062a66a9f0e.jpg",
     "static/media/9068.jpg": "/note-boardgames-react/static/media/9068.4cb144910cafd406c7e7.jpg",
@@ -66,6 +66,7 @@
     "static/media/40690.jpg": "/note-boardgames-react/static/media/40690.930d3db19242d6fa4b05.jpg",
     "static/media/9591.jpg": "/note-boardgames-react/static/media/9591.a6831feceae1c6fa8034.jpg",
     "static/media/5576.jpg": "/note-boardgames-react/static/media/5576.43db37bf7227dfe9b77d.jpg",
+    "static/media/377061.jpg": "/note-boardgames-react/static/media/377061.2629aacb4d5fe502b158.jpg",
     "static/media/119.jpg": "/note-boardgames-react/static/media/119.d2f17ef63ebb098e442e.jpg",
     "static/media/203719.jpg": "/note-boardgames-react/static/media/203719.e1bc7eec23761abcb802.jpg",
     "static/media/2188.jpg": "/note-boardgames-react/static/media/2188.31508994891e75a278a4.jpg",
@@ -108,7 +109,7 @@
     "static/media/-1.jpg": "/note-boardgames-react/static/media/-1.b26ff90248ebac87d672.jpg",
     "index.html": "/note-boardgames-react/index.html",
     "main.307b9602.css.map": "/note-boardgames-react/static/css/main.307b9602.css.map",
-    "main.72d55128.js.map": "/note-boardgames-react/static/js/main.72d55128.js.map",
+    "main.2f2a28ac.js.map": "/note-boardgames-react/static/js/main.2f2a28ac.js.map",
     "870.6eaf1a42.chunk.js.map": "/note-boardgames-react/static/js/870.6eaf1a42.chunk.js.map",
     "418.15bb8644.chunk.css.map": "/note-boardgames-react/static/css/418.15bb8644.chunk.css.map",
     "418.198af872.chunk.js.map": "/note-boardgames-react/static/js/418.198af872.chunk.js.map",
@@ -125,11 +126,11 @@
     "77.f3d40424.chunk.js.map": "/note-boardgames-react/static/js/77.f3d40424.chunk.js.map",
     "671.1119accc.chunk.js.map": "/note-boardgames-react/static/js/671.1119accc.chunk.js.map",
     "465.0d50bac5.chunk.js.map": "/note-boardgames-react/static/js/465.0d50bac5.chunk.js.map",
-    "309.07ad19dd.chunk.js.map": "/note-boardgames-react/static/js/309.07ad19dd.chunk.js.map",
-    "393.5819f3d5.chunk.js.map": "/note-boardgames-react/static/js/393.5819f3d5.chunk.js.map"
+    "309.0798f29b.chunk.js.map": "/note-boardgames-react/static/js/309.0798f29b.chunk.js.map",
+    "393.0edfeb68.chunk.js.map": "/note-boardgames-react/static/js/393.0edfeb68.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.307b9602.css",
-    "static/js/main.72d55128.js"
+    "static/js/main.2f2a28ac.js"
   ]
 }
