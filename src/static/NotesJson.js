@@ -1,5 +1,29 @@
 export const NotesJson = [
     {
+        "id": 171,
+        "title": "24.01.2025",
+        "content": `Пока ждали товарища, разложили Время Кофе. Была ничья по очкам, но написанные "отруки" правила позволили мне выиграть.
+        Давно не играли в Непостижимое, по этому вспоминали полчаса правила. Первую половину игры, как оказалось, было без гибрида. Как только получили карты новых ролей - началось. Топливо почти все потеряли, почти все глубоководные на борту. Пять из шести повреждений. В итоге победил культист и гибрид, затопив нас после получения 12 очков.`,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Время кофе"
+            },
+            {
+                "count": 1,
+                "title": "Непостежимое"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/171/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/171/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/171/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/171/4.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/171/5.jpg",
+        ]
+    },
+    {
         "id": 170,
         "title": "06.01.2025",
         "content": `Первая сессия после нового года, и первая новика - Время кофе. Евро филлер всем зашел, посмотрим в сторону допа.  </br></br>
