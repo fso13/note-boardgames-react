@@ -9,7 +9,7 @@ export const NotesJson = [
 
         "tags": [
             {
-                "count": 1,
+                "count": 2,
                 "title": "Unmatched: Туман над мостовой"
             },
             {
