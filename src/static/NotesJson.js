@@ -1,5 +1,30 @@
 export const NotesJson = [
     {
+        "id": 172,
+        "title": "07.02.2025",
+        "content": `Анматчд на 4х персов на поле вполне нормальное рубилово. В идеале двумя командами 2х2.</br></br>
+А в кубах Пашин сильный мегакомбовальтрон разбивался об кривовыпадающие кубы и  контрмагию рассеивания. Крч я победил на промежуточных 15 и финальных 20 очках.
+</br></br>
+Борис был властелином удваивающих порталов и кидал 100500 кубов почти каждый ход.`,
+
+        "tags": [
+            {
+                "count": 1,
+                "title": "Unmatched: Туман над мостовой"
+            },
+            {
+                "count": 1,
+                "title": "Кворриорс"
+            }
+        ],
+        "files": [
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/172/1.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/172/2.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/172/3.jpg",
+            "https://github.com/fso13/note-boardgames-react/raw/master/src/assets/images/note/172/4.jpg",
+        ]
+    },
+    {
         "id": 171,
         "title": "24.01.2025",
         "content": `Пока ждали товарища, разложили Время Кофе. Была ничья по очкам, но написанные "отруки" правила позволили мне выиграть.
