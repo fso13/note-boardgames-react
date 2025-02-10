@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/421.2467107d.chunk.css","mappings":"AAAA,mBAEI,eAAgB,CADhB,UAEF","sources":["views/ui/Notes.css"],"sourcesContent":[".carousel-item > img { \n    width: 100%; \n    object-fit: fill;\n  }"],"names":[],"sourceRoot":""}
